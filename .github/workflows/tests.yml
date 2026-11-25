@@ -1,0 +1,21 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    env:
+      MUJOCO_GL: osmesa
+      PYOPENGL_PLATFORM: osmesa
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: System packages (headless OpenGL)
+        run: sudo apt-get update && sudo apt-get install -y libosmesa6 libgl1
+      - name: Python packages
+        run: pip install -r requirements.txt
+      - name: Robot assets (UR10e, Robotiq 2F-140, pinned commits)
+        run: bash wall3/fetch_assets.sh
+      - name: Tests
+        run: pytest

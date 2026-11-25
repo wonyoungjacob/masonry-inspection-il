@@ -1,0 +1,21 @@
+# 생성물 (데이터셋 · 체크포인트 · 로그는 수백 GB, 저장소에 넣지 않는다)
+data/
+outputs/
+logs/
+wandb/
+# wall3/fetch_assets.sh 가 커밋 고정으로 받아 오는 외부 자산
+menagerie/
+third_party/
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+MUJOCO_LOG.TXT
+# OS / 에디터
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env

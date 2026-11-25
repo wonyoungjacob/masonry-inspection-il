@@ -1,0 +1,7 @@
+# LeRobot 변환 · ACT/Diffusion 학습 · 정책 롤아웃 (Ubuntu + CUDA GPU).
+# torch는 GPU에 맞는 CUDA 빌드를 먼저 설치한다. 예: RTX 5090 → https://download.pytorch.org/whl/cu128
+-r requirements.txt
+lerobot>=0.6
+torch
+torchvision
+huggingface_hub
