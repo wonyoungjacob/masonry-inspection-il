@@ -172,7 +172,7 @@ def main():
                  for r in done]
         head = ("3층 벽체 본 학습 6번 (ACT·Diffusion × seed 1000·2000·3000, 10만 스텝)" if a.title == "3층 벽체 본 학습"
                 else f"{a.title} ({', '.join(r['name'] for r in runs)}, 10만 스텝)")
-        entry = (f"# 실험일지\n\n## {time.strftime('%Y-%m-%d')} — {head} (Ubuntu, Claude Code)\n\n"
+        entry = (f"# 실험일지\n\n## {time.strftime('%Y-%m-%d')} — {head} (Ubuntu)\n\n"
                  f"상세 `01_사기설/{Path(a.out_dir).name}/보고서.md`. 데이터 `{d['root']}` (에피소드 {d['episodes']:,}, 내용 해시 `{(d['content_sha256'] or '')[:12]}…`).\n"
                  f"- 끝난 학습 {len(done)} / {len(runs) if a.title != '3층 벽체 본 학습' else 6}" + (f", 멈춤: {stop}" if stop else "") + f", 데이터 로딩 {setting.get('backend')} · 작업자 {setting.get('workers')} · 동시 {setting.get('concurrent')}\n"
                  + "\n".join(lines) + "\n\n---\n\n")

@@ -3,7 +3,7 @@
   N01_nopolicy  정책 없음: 대본 제어기 + Full 검측        → outputs/wall3/eval_nopolicy_20261116
   N02_g2t       Full + G2t: ACT + Full 검측, G2가 운반   → outputs/wall3/eval_g2t_20261116
   (둘은 한 단계에서 동시에, 각 프로세스 8개)
-  N_compare     Full(eval_lf_full_20261110, 포스터 숫자와 같은 실행)과 같은 100벽 짝 비교 (wall3.compare_ladder)
+  N_compare     Full(eval_lf_full_20261110, ⑤ 구성 기준 실행)과 같은 100벽 짝 비교 (wall3.compare_ladder)
 시작값 700300 ~ 700399(개발 배치), 최종 평가 아님. 참값 금지(--gate-pose-source truth · --gate-target held_truth 없음).
 
 실행: venv/bin/python -m wall3.supervisor --plan experiments.plan_nopolicy_g2t_20261116

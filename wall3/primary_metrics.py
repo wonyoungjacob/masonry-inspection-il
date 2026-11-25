@@ -3,7 +3,7 @@
 - 주 지표 1: 벽 완성(16자리 모두 채움) → 조건별 완성률, Full 대비 짝 차이(%p)와 95 % 구간
 - 주 지표 2: 완성된 벽의 시방 항목 ①~⑤ 측정값(mm) → 조건별 중앙값 · 95백분위, Full 대비 짝 차이(두 조건 모두 완성된 벽만)
 - 보조: 시방 합격, 벽당 채운 자리(채움 판정은 시방보다 훨씬 느슨: 수평 45 mm · 높이 28.5 mm · 기울기 45°)
-- 벽마다 16자리 채움 여부 · 완성 · 시방 합격 · 불합격 항목을 함께 저장한다(포스터 모자이크 그림용).
+- 벽마다 16자리 채움 여부 · 완성 · 시방 합격 · 불합격 항목을 함께 저장한다(자리별 모자이크 그림용).
 짝 차이 구간은 compare_ladder.py와 같은 방식(벽 단위로 다시 뽑기 10000번, 난수 시드 0).
 수치는 개발 배치 100벽(시작값 700300 ~ 700399)이며 최종 평가가 아니다. 참값 줄은 '참값 (진단)'.
 
@@ -15,7 +15,7 @@ from pathlib import Path
 import numpy as np
 
 SIM = Path(__file__).resolve().parents[1]
-# 결과 폴더. 다른 PC에서는 커밋된 복사본(02_KSARC2026/원자료_포스터d_20261111/wall3)을 WALL3_OUT으로 준다.
+# 결과 폴더. 다른 PC에서는 결과 폴더 복사본을 WALL3_OUT으로 준다.
 W = Path(os.environ["WALL3_OUT"]).resolve() if os.environ.get("WALL3_OUT") else SIM / "outputs" / "wall3"
 
 
@@ -27,7 +27,7 @@ def relkey(p):
     except ValueError:
         return str(Path("outputs") / "wall3" / p.relative_to(W))
 
-# (줄 이름, 평가 폴더/조건, 종류) — 포스터 05절과 같은 줄 + Full 다시 잰 두 번(실행 간 흔들림)
+# (줄 이름, 평가 폴더/조건, 종류) — 역방향 제거 표와 같은 줄 + Full 다시 잰 두 번(실행 간 흔들림)
 ROWS = [
     ("Full", "eval_lf_full_20261110/act_all_held+k2+k7", "full"),
     ("Full − G2w", "eval_lf_noG2w_20261110/act_all_held+k2", "loo"),
@@ -81,7 +81,7 @@ def load(key):
 
 
 def compute():
-    """-> 결과 dict (포스터 스크립트도 이 함수를 그대로 부른다)."""
+    """-> 결과 dict (그림 스크립트도 이 함수를 그대로 부른다)."""
     data = {}
     sources = {}
     for lab, key, kind in ROWS:

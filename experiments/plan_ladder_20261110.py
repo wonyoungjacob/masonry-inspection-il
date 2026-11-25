@@ -3,7 +3,7 @@
 L1_eval   : 같은 100벽(700300 ~ 700399)에서 E3(all_held) 다시 · +K1 · +K2 · +K6 (각 제어 하나씩, ACT)
 L1_trace  : +K2 조건을 추적 기록과 함께 다시 돌림 (평가와 같은지 비교) → L1_causes 원인 분류 → L1_rank 다음 순위
 L1_compare: 기준(같은 묶음의 E3 다시 돌림)과 짝 비교, 11-04 E3와도 비교 (평가 바로 뒤)
-계산만 한다. 판정 · 보고 · 커밋은 사람이(또는 Claude가) 결과를 읽고 한다.
+계산만 한다. 판정 · 보고 · 커밋은 사람이 결과를 읽고 한다.
 
 실행: venv/bin/python -m wall3.supervisor --plan experiments.plan_ladder_20261110
 """

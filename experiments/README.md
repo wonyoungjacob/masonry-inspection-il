@@ -5,7 +5,7 @@
 
 | 접두어 | 내용 | 예 |
 |---|---|---|
-| `plan_*` | `wall3.supervisor`가 차례로 돌리는 실험 계획(조건 목록 · 출력 폴더 · 판정 순서) | `plan_lf_20261110.py` = 포스터의 역방향 제거(leave-one-out) 실험 |
+| `plan_*` | `wall3.supervisor`가 차례로 돌리는 실험 계획(조건 목록 · 출력 폴더 · 판정 순서) | `plan_lf_20261110.py` = ⑤ 구성의 역방향 제거(leave-one-out) 실험 |
 | `diag_*` | 실패 원인 진단. 정책이 어디서, 왜 실패했는지 추적 · 영상 · 그림으로 확인 | `diag_trace.py`, `diag_fail_mechanism.py`, `diag_slip.py` |
 | `rank_*`, `est_*` | 진단 결과를 원인별로 세고, 원인을 없앴을 때의 상한을 추정 | `rank_fail_causes.py`, `est_fix_ceiling.py` |
 | `sweep_*`, `pilot_*` | 집게 파라미터 탐색, 파일럿 확인 | `sweep_gripper140_a.py` |

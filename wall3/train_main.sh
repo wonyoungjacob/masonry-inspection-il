@@ -47,9 +47,7 @@ commit () {  # commit <message> [extra paths...]
     cd "$REPO" || exit 0
     git pull -q --rebase --autostash || say "git pull failed"
     git add "$REPORT_DIR" "$@"
-    git commit -q -m "$msg
-
-Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" || say "nothing to commit"
+    git commit -q -m "$msg" || say "nothing to commit"
     git push -q || say "git push failed"
   ) 9> "$OUT/.gitlock"
 }
