@@ -1,5 +1,7 @@
 # 모방학습 조적 로봇의 검측 단계별 효과
 
+[![tests](https://github.com/wonyoungjacob/masonry-inspection-il/actions/workflows/tests.yml/badge.svg)](https://github.com/wonyoungjacob/masonry-inspection-il/actions/workflows/tests.yml)
+
 **Stage-wise Effects of Inspection on an Imitation-Learned Masonry Robot: A Three-Course Wall Study**
 KSARC 2026 (한국건설자동화로보틱스학회) 포스터 · MuJoCo · UR10e + Robotiq 2F-140 · LeRobot ACT
 
