@@ -1,0 +1,66 @@
+{
+ "seeds": [
+  700300,
+  700399
+ ],
+ "env_version": "main_v1_eval",
+ "ckpt": {
+  "act": "outputs/wall3/main_train_v2_20261022/act_s1000/checkpoints/last/pretrained_model",
+  "diffusion": "outputs/wall3/main_train_v2_20261022/diffusion_s1000/checkpoints/last/pretrained_model"
+ },
+ "conditions": {
+  "none": []
+ },
+ "jobs": [
+  [
+   "act",
+   "none",
+   0,
+   "outputs/wall3/eval_lf_none_20261110/act_none_part0"
+  ],
+  [
+   "act",
+   "none",
+   1,
+   "outputs/wall3/eval_lf_none_20261110/act_none_part1"
+  ],
+  [
+   "act",
+   "none",
+   2,
+   "outputs/wall3/eval_lf_none_20261110/act_none_part2"
+  ],
+  [
+   "act",
+   "none",
+   3,
+   "outputs/wall3/eval_lf_none_20261110/act_none_part3"
+  ],
+  [
+   "act",
+   "none",
+   4,
+   "outputs/wall3/eval_lf_none_20261110/act_none_part4"
+  ],
+  [
+   "act",
+   "none",
+   5,
+   "outputs/wall3/eval_lf_none_20261110/act_none_part5"
+  ],
+  [
+   "act",
+   "none",
+   6,
+   "outputs/wall3/eval_lf_none_20261110/act_none_part6"
+  ],
+  [
+   "act",
+   "none",
+   7,
+   "outputs/wall3/eval_lf_none_20261110/act_none_part7"
+  ]
+ ],
+ "started": "2026-11-10 19:19:18",
+ "git_commit": "2e2a90348987f12d357d6efd452bbfb4518e693f"
+}

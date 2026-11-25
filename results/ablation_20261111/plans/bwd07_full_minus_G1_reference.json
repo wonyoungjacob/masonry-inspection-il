@@ -1,0 +1,74 @@
+{
+ "seeds": [
+  700300,
+  700399
+ ],
+ "env_version": "main_v1_eval",
+ "ckpt": {
+  "act": "outputs/wall3/main_train_v2_20261022/act_s1000/checkpoints/last/pretrained_model",
+  "diffusion": "outputs/wall3/main_train_v2_20261022/diffusion_s1000/checkpoints/last/pretrained_model"
+ },
+ "conditions": {
+  "g2g3_held+k2+k7": [
+   "--g2",
+   "--g3",
+   "--gate-target",
+   "held_grasp",
+   "--gate-fix",
+   "k2",
+   "k7"
+  ]
+ },
+ "jobs": [
+  [
+   "act",
+   "g2g3_held+k2+k7",
+   0,
+   "outputs/wall3/eval_lf_noG1_20261110/act_g2g3_held+k2+k7_part0"
+  ],
+  [
+   "act",
+   "g2g3_held+k2+k7",
+   1,
+   "outputs/wall3/eval_lf_noG1_20261110/act_g2g3_held+k2+k7_part1"
+  ],
+  [
+   "act",
+   "g2g3_held+k2+k7",
+   2,
+   "outputs/wall3/eval_lf_noG1_20261110/act_g2g3_held+k2+k7_part2"
+  ],
+  [
+   "act",
+   "g2g3_held+k2+k7",
+   3,
+   "outputs/wall3/eval_lf_noG1_20261110/act_g2g3_held+k2+k7_part3"
+  ],
+  [
+   "act",
+   "g2g3_held+k2+k7",
+   4,
+   "outputs/wall3/eval_lf_noG1_20261110/act_g2g3_held+k2+k7_part4"
+  ],
+  [
+   "act",
+   "g2g3_held+k2+k7",
+   5,
+   "outputs/wall3/eval_lf_noG1_20261110/act_g2g3_held+k2+k7_part5"
+  ],
+  [
+   "act",
+   "g2g3_held+k2+k7",
+   6,
+   "outputs/wall3/eval_lf_noG1_20261110/act_g2g3_held+k2+k7_part6"
+  ],
+  [
+   "act",
+   "g2g3_held+k2+k7",
+   7,
+   "outputs/wall3/eval_lf_noG1_20261110/act_g2g3_held+k2+k7_part7"
+  ]
+ ],
+ "started": "2026-11-10 20:23:18",
+ "git_commit": "7e47df5c1dd78d63826f231e022b4826ff5c1ab9"
+}

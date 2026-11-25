@@ -1,0 +1,348 @@
+{
+ "trace": "outputs/wall3/diag_trace_lf_full_20261110",
+ "base": {
+  "filled": 13.31,
+  "complete_pct": 59.0,
+  "filled_floor5": 13.22,
+  "complete_pct_floor5": 53.2
+ },
+ "ranked": [
+  {
+   "id": "R_6G",
+   "name": "자리 6: 자리 5 반장이 어긋나 있어 놓다 부딪힘 (G2 못 봄 + G3 찾는 반경 밖)",
+   "keys": [
+    "6G"
+   ],
+   "walls": 9,
+   "gain": 0.76,
+   "complete_pct": 65.0,
+   "gain_floor5": 0.75
+  },
+  {
+   "id": "R_11",
+   "name": "자리 11: 공급대 · 운반 · 못 집음",
+   "keys": [
+    "11S",
+    "11C",
+    "11N"
+   ],
+   "walls": 6,
+   "gain": 0.25,
+   "complete_pct": 63.7,
+   "gain_floor5": 0.25
+  },
+  {
+   "id": "R_1단",
+   "name": "1단 (자리 1 ~ 4): 검측 · 공급대 · 운반",
+   "keys": [
+    "1G",
+    "2G",
+    "2S",
+    "3C",
+    "4G",
+    "4S"
+   ],
+   "walls": 2,
+   "gain": 0.25,
+   "complete_pct": 60.2,
+   "gain_floor5": 0.25
+  },
+  {
+   "id": "R_12C",
+   "name": "(새로 생김) 자리 12: 정책이 옮기다",
+   "keys": [
+    "12C"
+   ],
+   "walls": 6,
+   "gain": 0.23,
+   "complete_pct": 64.6,
+   "gain_floor5": 0.22
+  },
+  {
+   "id": "R_12G",
+   "name": "(새로 생김) 자리 12: 검측이 다루다",
+   "keys": [
+    "12G"
+   ],
+   "walls": 5,
+   "gain": 0.19,
+   "complete_pct": 63.7,
+   "gain_floor5": 0.19
+  },
+  {
+   "id": "R_기타",
+   "name": "그 밖 2단 (자리 6 공급대 · 운반, 7 못 집음, 8 공급대)",
+   "keys": [
+    "6S",
+    "6C",
+    "7N",
+    "8S"
+   ],
+   "walls": 2,
+   "gain": 0.15,
+   "complete_pct": 60.4,
+   "gain_floor5": 0.15
+  },
+  {
+   "id": "R_13N",
+   "name": "(새로 생김) 자리 13: 못 집음",
+   "keys": [
+    "13N"
+   ],
+   "walls": 3,
+   "gain": 0.09,
+   "complete_pct": 62.0,
+   "gain_floor5": 0.03
+  },
+  {
+   "id": "R_5",
+   "name": "자리 5 반장: 못 집음 · 공급대 · 검측",
+   "keys": [
+    "5N",
+    "5S",
+    "5G"
+   ],
+   "walls": 1,
+   "gain": 0.09,
+   "complete_pct": 59.6,
+   "gain_floor5": 0.09
+  },
+  {
+   "id": "R_11G",
+   "name": "(새로 생김) 자리 11: 검측이 다루다",
+   "keys": [
+    "11G"
+   ],
+   "walls": 2,
+   "gain": 0.08,
+   "complete_pct": 60.6,
+   "gain_floor5": 0.08
+  },
+  {
+   "id": "R_7G",
+   "name": "자리 7: G2가 손 안 벽돌을 잘못 재 놓아 이웃 끝에 걸침 (G3도 못 봄)",
+   "keys": [
+    "7G"
+   ],
+   "walls": 1,
+   "gain": 0.08,
+   "complete_pct": 59.7,
+   "gain_floor5": 0.08
+  },
+  {
+   "id": "R_9G",
+   "name": "(새로 생김) 자리 9: 검측이 다루다",
+   "keys": [
+    "9G"
+   ],
+   "walls": 1,
+   "gain": 0.06,
+   "complete_pct": 59.7,
+   "gain_floor5": 0.06
+  },
+  {
+   "id": "R_12N",
+   "name": "(새로 생김) 자리 12: 못 집음",
+   "keys": [
+    "12N"
+   ],
+   "walls": 1,
+   "gain": 0.04,
+   "complete_pct": 59.9,
+   "gain_floor5": 0.04
+  },
+  {
+   "id": "R_12S",
+   "name": "(새로 생김) 자리 12: 공급대 위",
+   "keys": [
+    "12S"
+   ],
+   "walls": 1,
+   "gain": 0.04,
+   "complete_pct": 59.9,
+   "gain_floor5": 0.04
+  },
+  {
+   "id": "R_13S",
+   "name": "(새로 생김) 자리 13: 공급대 위",
+   "keys": [
+    "13S"
+   ],
+   "walls": 1,
+   "gain": 0.03,
+   "complete_pct": 60.0,
+   "gain_floor5": 0.03
+  },
+  {
+   "id": "R_10S",
+   "name": "자리 10 반장: G1이 '안 쥠'으로 손을 돌려준 직후 정책이 내려오다 침",
+   "keys": [
+    "10S"
+   ],
+   "walls": 0,
+   "gain": 0.0,
+   "complete_pct": 59.0,
+   "gain_floor5": 0.0
+  },
+  {
+   "id": "R_7C",
+   "name": "자리 7: 정책이 옮기다 떨어뜨림",
+   "keys": [
+    "7C"
+   ],
+   "walls": 0,
+   "gain": 0.0,
+   "complete_pct": 59.0,
+   "gain_floor5": 0.0
+  },
+  {
+   "id": "R_7S",
+   "name": "자리 7: 공급대에서 집다 기울어 떨어짐 (G1 들기 중 · 정책)",
+   "keys": [
+    "7S"
+   ],
+   "walls": 0,
+   "gain": 0.0,
+   "complete_pct": 59.0,
+   "gain_floor5": 0.0
+  }
+ ],
+ "cumulative": [
+  {
+   "id": "R_6G",
+   "filled": 14.07,
+   "rate_pct": 87.9,
+   "complete_pct": 65.0,
+   "filled_floor5": 13.97,
+   "complete_pct_floor5": 58.7
+  },
+  {
+   "id": "R_11",
+   "filled": 14.34,
+   "rate_pct": 89.6,
+   "complete_pct": 70.2,
+   "filled_floor5": 14.24,
+   "complete_pct_floor5": 63.3
+  },
+  {
+   "id": "R_1단",
+   "filled": 14.62,
+   "rate_pct": 91.4,
+   "complete_pct": 71.6,
+   "filled_floor5": 14.51,
+   "complete_pct_floor5": 64.6
+  },
+  {
+   "id": "R_12C",
+   "filled": 14.89,
+   "rate_pct": 93.1,
+   "complete_pct": 78.4,
+   "filled_floor5": 14.78,
+   "complete_pct_floor5": 70.8
+  },
+  {
+   "id": "R_12G",
+   "filled": 15.12,
+   "rate_pct": 94.5,
+   "complete_pct": 84.1,
+   "filled_floor5": 14.92,
+   "complete_pct_floor5": 74.1
+  },
+  {
+   "id": "R_기타",
+   "filled": 15.32,
+   "rate_pct": 95.8,
+   "complete_pct": 86.1,
+   "filled_floor5": 15.11,
+   "complete_pct_floor5": 75.8
+  },
+  {
+   "id": "R_13N",
+   "filled": 15.45,
+   "rate_pct": 96.6,
+   "complete_pct": 90.5,
+   "filled_floor5": 15.14,
+   "complete_pct_floor5": 76.9
+  },
+  {
+   "id": "R_5",
+   "filled": 15.56,
+   "rate_pct": 97.2,
+   "complete_pct": 91.4,
+   "filled_floor5": 15.25,
+   "complete_pct_floor5": 77.7
+  },
+  {
+   "id": "R_11G",
+   "filled": 15.67,
+   "rate_pct": 97.9,
+   "complete_pct": 93.6,
+   "filled_floor5": 15.35,
+   "complete_pct_floor5": 79.6
+  },
+  {
+   "id": "R_7G",
+   "filled": 15.77,
+   "rate_pct": 98.6,
+   "complete_pct": 94.7,
+   "filled_floor5": 15.45,
+   "complete_pct_floor5": 80.5
+  },
+  {
+   "id": "R_9G",
+   "filled": 15.85,
+   "rate_pct": 99.1,
+   "complete_pct": 95.8,
+   "filled_floor5": 15.52,
+   "complete_pct_floor5": 81.5
+  },
+  {
+   "id": "R_12N",
+   "filled": 15.9,
+   "rate_pct": 99.4,
+   "complete_pct": 97.1,
+   "filled_floor5": 15.52,
+   "complete_pct_floor5": 81.5
+  },
+  {
+   "id": "R_12S",
+   "filled": 15.95,
+   "rate_pct": 99.7,
+   "complete_pct": 98.4,
+   "filled_floor5": 15.52,
+   "complete_pct_floor5": 81.5
+  },
+  {
+   "id": "R_13S",
+   "filled": 16.0,
+   "rate_pct": 100.0,
+   "complete_pct": 100.0,
+   "filled_floor5": 15.52,
+   "complete_pct_floor5": 81.5
+  },
+  {
+   "id": "R_10S",
+   "filled": 16.0,
+   "rate_pct": 100.0,
+   "complete_pct": 100.0,
+   "filled_floor5": 15.52,
+   "complete_pct_floor5": 81.5
+  },
+  {
+   "id": "R_7C",
+   "filled": 16.0,
+   "rate_pct": 100.0,
+   "complete_pct": 100.0,
+   "filled_floor5": 15.52,
+   "complete_pct_floor5": 81.5
+  },
+  {
+   "id": "R_7S",
+   "filled": 16.0,
+   "rate_pct": 100.0,
+   "complete_pct": 100.0,
+   "filled_floor5": 15.52,
+   "complete_pct_floor5": 81.5
+  }
+ ]
+}
