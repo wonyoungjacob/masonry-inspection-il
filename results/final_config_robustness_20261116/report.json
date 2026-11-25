@@ -1,0 +1,518 @@
+{
+ "note": "개발 배치 100벽(700300 ~ 700399) · 최종 평가 아님 · 짝 차이 95 % 부트스트랩(벽 단위 10000번, 시드 0)",
+ "conditions": {
+  "act_none": {
+   "label": "하이브리드 (ACT + 검측) · 제약 없음",
+   "filled_mean": 16.0,
+   "complete": 100,
+   "spec_pass": 96,
+   "items": {
+    "2": {
+     "median": 0.5948657078632403,
+     "max": 20.759981408776156,
+     "over6": 4
+    },
+    "3": {
+     "median": 0.9309784761966367,
+     "max": 39.04783459525163,
+     "over6": 4
+    },
+    "4": {
+     "median": 0.7427297755210893,
+     "max": 1.006092010824633,
+     "over6": 0
+    }
+   },
+   "g0v": 1600,
+   "not_seen": 0,
+   "grasped": 1600,
+   "meas_err_mm_median": 0.27,
+   "meas_err_mm_p90": 0.31,
+   "g1_ok": 1600,
+   "g1_not": 8186,
+   "g2t_carries": 1600,
+   "sim_s_per_wall_median": 451.025
+  },
+  "act_A": {
+   "label": "하이브리드 (ACT + 검측) · A만",
+   "filled_mean": 15.64,
+   "complete": 94,
+   "spec_pass": 93,
+   "items": {
+    "2": {
+     "median": 0.6344638343090656,
+     "max": 25.09052421455464,
+     "over6": 1
+    },
+    "3": {
+     "median": 0.8521962935975902,
+     "max": 48.39434129272102,
+     "over6": 1
+    },
+    "4": {
+     "median": 3.307234641846568,
+     "max": 5.662684572682819,
+     "over6": 0
+    }
+   },
+   "g0v": 1574,
+   "not_seen": 10,
+   "grasped": 1564,
+   "meas_err_mm_median": 1.22,
+   "meas_err_mm_p90": 2.2,
+   "g1_ok": 1566,
+   "g1_not": 6693,
+   "g2t_carries": 1566,
+   "sim_s_per_wall_median": 434.1
+  },
+  "act_B": {
+   "label": "하이브리드 (ACT + 검측) · B만",
+   "filled_mean": 16.0,
+   "complete": 100,
+   "spec_pass": 100,
+   "items": {
+    "2": {
+     "median": 0.5945315219972436,
+     "max": 0.7940280399328263,
+     "over6": 0
+    },
+    "3": {
+     "median": 0.8703517049594711,
+     "max": 1.2005970331683269,
+     "over6": 0
+    },
+    "4": {
+     "median": 0.7378892723483577,
+     "max": 0.9469019202750784,
+     "over6": 0
+    }
+   },
+   "g0v": 1600,
+   "not_seen": 0,
+   "grasped": 1600,
+   "meas_err_mm_median": 0.28,
+   "meas_err_mm_p90": 0.44,
+   "g1_ok": 1600,
+   "g1_not": 8107,
+   "g2t_carries": 1600,
+   "sim_s_per_wall_median": 451.125
+  },
+  "act_AB": {
+   "label": "하이브리드 (ACT + 검측) · A + B",
+   "filled_mean": 15.52,
+   "complete": 92,
+   "spec_pass": 92,
+   "items": {
+    "2": {
+     "median": 0.613380623789445,
+     "max": 1.0720993435158384,
+     "over6": 0
+    },
+    "3": {
+     "median": 0.8930275224397766,
+     "max": 1.6531786133978654,
+     "over6": 0
+    },
+    "4": {
+     "median": 3.2150186092955724,
+     "max": 5.717518676693567,
+     "over6": 0
+    }
+   },
+   "g0v": 1560,
+   "not_seen": 12,
+   "grasped": 1548,
+   "meas_err_mm_median": 1.26,
+   "meas_err_mm_p90": 2.2329999999999997,
+   "g1_ok": 1555,
+   "g1_not": 7109,
+   "g2t_carries": 1555,
+   "sim_s_per_wall_median": 438.70000000000005
+  },
+  "script_none": {
+   "label": "제어만 (대본 + 검측) · 제약 없음",
+   "filled_mean": 16.0,
+   "complete": 100,
+   "spec_pass": 100,
+   "items": {
+    "2": {
+     "median": 0.6043892242805488,
+     "max": 0.8010356168215991,
+     "over6": 0
+    },
+    "3": {
+     "median": 0.9257530931844338,
+     "max": 1.242862600279504,
+     "over6": 0
+    },
+    "4": {
+     "median": 0.7297969788244707,
+     "max": 0.9266483896395172,
+     "over6": 0
+    }
+   },
+   "g0v": 1600,
+   "not_seen": 0,
+   "grasped": 1600,
+   "meas_err_mm_median": 0.28,
+   "meas_err_mm_p90": 0.42,
+   "g1_ok": 1600,
+   "g1_not": 0,
+   "g2t_carries": 1600,
+   "sim_s_per_wall_median": 191.15
+  },
+  "script_A": {
+   "label": "제어만 (대본 + 검측) · A만",
+   "filled_mean": 16.0,
+   "complete": 100,
+   "spec_pass": 100,
+   "items": {
+    "2": {
+     "median": 0.6105120297080293,
+     "max": 1.0848275940333245,
+     "over6": 0
+    },
+    "3": {
+     "median": 0.8609895948292756,
+     "max": 1.6157344286132913,
+     "over6": 0
+    },
+    "4": {
+     "median": 3.3027065999924887,
+     "max": 5.633235057126873,
+     "over6": 0
+    }
+   },
+   "g0v": 1600,
+   "not_seen": 0,
+   "grasped": 1600,
+   "meas_err_mm_median": 1.225,
+   "meas_err_mm_p90": 2.25,
+   "g1_ok": 1600,
+   "g1_not": 0,
+   "g2t_carries": 1600,
+   "sim_s_per_wall_median": 191.55
+  },
+  "script_B": {
+   "label": "제어만 (대본 + 검측) · B만",
+   "filled_mean": 16.0,
+   "complete": 100,
+   "spec_pass": 100,
+   "items": {
+    "2": {
+     "median": 0.5907460057952076,
+     "max": 0.7601348525753189,
+     "over6": 0
+    },
+    "3": {
+     "median": 0.9015683273881359,
+     "max": 1.2842341669735968,
+     "over6": 0
+    },
+    "4": {
+     "median": 0.7734327693521559,
+     "max": 1.0054030679541581,
+     "over6": 0
+    }
+   },
+   "g0v": 1600,
+   "not_seen": 0,
+   "grasped": 1600,
+   "meas_err_mm_median": 0.31,
+   "meas_err_mm_p90": 0.48,
+   "g1_ok": 1600,
+   "g1_not": 0,
+   "g2t_carries": 1600,
+   "sim_s_per_wall_median": 191.15
+  },
+  "script_AB": {
+   "label": "제어만 (대본 + 검측) · A + B",
+   "filled_mean": 16.0,
+   "complete": 100,
+   "spec_pass": 100,
+   "items": {
+    "2": {
+     "median": 0.6189738246813004,
+     "max": 1.2944141934293805,
+     "over6": 0
+    },
+    "3": {
+     "median": 0.8888250247335305,
+     "max": 1.6504597088774497,
+     "over6": 0
+    },
+    "4": {
+     "median": 3.4369474725326477,
+     "max": 5.8193011019701535,
+     "over6": 0
+    }
+   },
+   "g0v": 1600,
+   "not_seen": 0,
+   "grasped": 1600,
+   "meas_err_mm_median": 1.275,
+   "meas_err_mm_p90": 2.301000000000001,
+   "g1_ok": 1600,
+   "g1_not": 0,
+   "g2t_carries": 1600,
+   "sim_s_per_wall_median": 191.55
+  }
+ },
+ "hybrid_minus_script": {
+  "none": {
+   "complete_pp": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "spec_pp": [
+    -4.0,
+    [
+     -8.0,
+     -1.0
+    ]
+   ],
+   "filled": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ]
+  },
+  "A": {
+   "complete_pp": [
+    -6.0,
+    [
+     -11.0,
+     -2.0
+    ]
+   ],
+   "spec_pp": [
+    -7.0,
+    [
+     -12.0,
+     -2.0
+    ]
+   ],
+   "filled": [
+    -0.36,
+    [
+     -0.66,
+     -0.12
+    ]
+   ]
+  },
+  "B": {
+   "complete_pp": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "spec_pp": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "filled": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ]
+  },
+  "AB": {
+   "complete_pp": [
+    -8.0,
+    [
+     -14.0,
+     -3.0
+    ]
+   ],
+   "spec_pp": [
+    -8.0,
+    [
+     -14.0,
+     -3.0
+    ]
+   ],
+   "filled": [
+    -0.48,
+    [
+     -0.84,
+     -0.18
+    ]
+   ]
+  }
+ },
+ "effects": {
+  "act": {
+   "A_alone": [
+    -6.0,
+    [
+     -11.0,
+     -2.0
+    ]
+   ],
+   "B_alone": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "AB_vs_none": [
+    -8.0,
+    [
+     -14.0,
+     -3.0
+    ]
+   ],
+   "main_A": [
+    -7.0,
+    [
+     -11.0,
+     -3.5
+    ]
+   ],
+   "main_B": [
+    -1.0,
+    [
+     -4.0,
+     2.0
+    ]
+   ],
+   "interaction_AxB": [
+    -2.0,
+    [
+     -8.0,
+     4.0
+    ]
+   ]
+  },
+  "script": {
+   "A_alone": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "B_alone": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "AB_vs_none": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "main_A": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "main_B": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "interaction_AxB": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ]
+  }
+ },
+ "did": {
+  "A": [
+   -6.0,
+   [
+    -11.0,
+    -2.0
+   ]
+  ],
+  "B": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "AB": [
+   -8.0,
+   [
+    -14.0,
+    -3.0
+   ]
+  ]
+ },
+ "sources": {
+  "outputs/wall3/eval_real_act_none_20261116/act_real_none_part0/rollout.json": "e29767e6e1553c7c",
+  "outputs/wall3/eval_real_act_none_20261116/act_real_none_part1/rollout.json": "e4e9cc197955cb82",
+  "outputs/wall3/eval_real_act_none_20261116/act_real_none_part2/rollout.json": "f09eccb6ef6e0139",
+  "outputs/wall3/eval_real_act_none_20261116/act_real_none_part3/rollout.json": "d29b6b5b4509fe0a",
+  "outputs/wall3/eval_real_act_none_20261116/act_real_none_part4/rollout.json": "2e3cf6880d3b6c8c",
+  "outputs/wall3/eval_real_act_none_20261116/act_real_none_part5/rollout.json": "7e52e6901f2ff7d1",
+  "outputs/wall3/eval_real_act_A_20261116/act_real_A_part0/rollout.json": "b387dd54ca6553fe",
+  "outputs/wall3/eval_real_act_A_20261116/act_real_A_part1/rollout.json": "3d0b59510e7f7773",
+  "outputs/wall3/eval_real_act_A_20261116/act_real_A_part2/rollout.json": "b957759e518d3542",
+  "outputs/wall3/eval_real_act_A_20261116/act_real_A_part3/rollout.json": "cce3a7b682a67956",
+  "outputs/wall3/eval_real_act_A_20261116/act_real_A_part4/rollout.json": "1bf1e70c1af5ec0d",
+  "outputs/wall3/eval_real_act_A_20261116/act_real_A_part5/rollout.json": "392bc0d464f0fad6",
+  "outputs/wall3/eval_real_act_B_20261116/act_real_B_part0/rollout.json": "cbeff7c7feafa5b4",
+  "outputs/wall3/eval_real_act_B_20261116/act_real_B_part1/rollout.json": "d8b99296814c4fe7",
+  "outputs/wall3/eval_real_act_B_20261116/act_real_B_part2/rollout.json": "c30971294872dc48",
+  "outputs/wall3/eval_real_act_B_20261116/act_real_B_part3/rollout.json": "a0ee87ae9d77e7bd",
+  "outputs/wall3/eval_real_act_B_20261116/act_real_B_part4/rollout.json": "2478e8e9243a35c9",
+  "outputs/wall3/eval_real_act_B_20261116/act_real_B_part5/rollout.json": "48453d2dd402f61a",
+  "outputs/wall3/eval_real_act_AB_20261116/act_real_AB_part0/rollout.json": "e066a66b67228985",
+  "outputs/wall3/eval_real_act_AB_20261116/act_real_AB_part1/rollout.json": "81559d72af513231",
+  "outputs/wall3/eval_real_act_AB_20261116/act_real_AB_part2/rollout.json": "8633d7684acbc747",
+  "outputs/wall3/eval_real_act_AB_20261116/act_real_AB_part3/rollout.json": "a5febe1d6b6e6566",
+  "outputs/wall3/eval_real_act_AB_20261116/act_real_AB_part4/rollout.json": "5f7aca6f8d00d250",
+  "outputs/wall3/eval_real_act_AB_20261116/act_real_AB_part5/rollout.json": "d0313868285bd0c8",
+  "outputs/wall3/eval_real_script_none_20261116/script_real_none_part0/rollout.json": "84b9326aaf923004",
+  "outputs/wall3/eval_real_script_none_20261116/script_real_none_part1/rollout.json": "d45382eedbe2ef04",
+  "outputs/wall3/eval_real_script_none_20261116/script_real_none_part2/rollout.json": "c89ddea385a46f5d",
+  "outputs/wall3/eval_real_script_none_20261116/script_real_none_part3/rollout.json": "af86f900ace2f245",
+  "outputs/wall3/eval_real_script_none_20261116/script_real_none_part4/rollout.json": "e4f654d841002191",
+  "outputs/wall3/eval_real_script_none_20261116/script_real_none_part5/rollout.json": "56bff172dfb33559",
+  "outputs/wall3/eval_real_script_A_20261116/script_real_A_part0/rollout.json": "50dde92170047604",
+  "outputs/wall3/eval_real_script_A_20261116/script_real_A_part1/rollout.json": "650a5126a937b12b",
+  "outputs/wall3/eval_real_script_A_20261116/script_real_A_part2/rollout.json": "0a63a323c2f4f3e5",
+  "outputs/wall3/eval_real_script_A_20261116/script_real_A_part3/rollout.json": "98904b527fc909c2",
+  "outputs/wall3/eval_real_script_A_20261116/script_real_A_part4/rollout.json": "5ee624d2e4869c8a",
+  "outputs/wall3/eval_real_script_A_20261116/script_real_A_part5/rollout.json": "939bf9afb4dac9db",
+  "outputs/wall3/eval_real_script_B_20261116/script_real_B_part0/rollout.json": "29de9151d11b8495",
+  "outputs/wall3/eval_real_script_B_20261116/script_real_B_part1/rollout.json": "79eb430c536b9d8d",
+  "outputs/wall3/eval_real_script_B_20261116/script_real_B_part2/rollout.json": "a10aa794be54f077",
+  "outputs/wall3/eval_real_script_B_20261116/script_real_B_part3/rollout.json": "46f65af0b384e9d7",
+  "outputs/wall3/eval_real_script_B_20261116/script_real_B_part4/rollout.json": "8d30a515b789c949",
+  "outputs/wall3/eval_real_script_B_20261116/script_real_B_part5/rollout.json": "7a46deeb545881e0",
+  "outputs/wall3/eval_real_script_AB_20261116/script_real_AB_part0/rollout.json": "75f8a4ecab7cb88d",
+  "outputs/wall3/eval_real_script_AB_20261116/script_real_AB_part1/rollout.json": "69854acc4d095d40",
+  "outputs/wall3/eval_real_script_AB_20261116/script_real_AB_part2/rollout.json": "1fc8108d279a0637",
+  "outputs/wall3/eval_real_script_AB_20261116/script_real_AB_part3/rollout.json": "b83be3fbfc608148",
+  "outputs/wall3/eval_real_script_AB_20261116/script_real_AB_part4/rollout.json": "ee6c59b5d8a63691",
+  "outputs/wall3/eval_real_script_AB_20261116/script_real_AB_part5/rollout.json": "49a3aab47933ae80"
+ }
+}

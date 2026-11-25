@@ -1,0 +1,49 @@
+{
+ "seeds": [
+  700300,
+  700399
+ ],
+ "env_version": "main_v1_eval",
+ "condition": "act_real_AB",
+ "flags": [
+  "--controller",
+  "act",
+  "--A",
+  "--B"
+ ],
+ "jobs": [
+  [
+   0,
+   "outputs/wall3/eval_real_act_AB_20261116/act_real_AB_part0"
+  ],
+  [
+   1,
+   "outputs/wall3/eval_real_act_AB_20261116/act_real_AB_part1"
+  ],
+  [
+   2,
+   "outputs/wall3/eval_real_act_AB_20261116/act_real_AB_part2"
+  ],
+  [
+   3,
+   "outputs/wall3/eval_real_act_AB_20261116/act_real_AB_part3"
+  ],
+  [
+   4,
+   "outputs/wall3/eval_real_act_AB_20261116/act_real_AB_part4"
+  ],
+  [
+   5,
+   "outputs/wall3/eval_real_act_AB_20261116/act_real_AB_part5"
+  ]
+ ],
+ "resource_rules": {
+  "min_mem_gb": 12.0,
+  "min_gpu_free_mb": 4096,
+  "max_load1": 24.0,
+  "nice": 10,
+  "threads": 1
+ },
+ "started": "2026-11-17 00:14:59",
+ "git_commit": "dcfd3161c9c953780309e1f7fa8c44cbdf241453"
+}

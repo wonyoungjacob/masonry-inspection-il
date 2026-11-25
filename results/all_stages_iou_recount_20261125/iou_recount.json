@@ -1,0 +1,1440 @@
+{
+ "note": "개발 배치 100벽(700300 ~ 700399) · 최종 평가 아님 · 저장된 rollout.json만 읽음(새 롤아웃 없음) · IoU = rollout 때 채점 코드가 참값 자세로 계산한 자리별 값(빈 자리 0) · 구간 = 벽 단위 부트스트랩 95 % (10000번, 시드 0)",
+ "thresholds": {
+  "A": {
+   "온장": 0.749,
+   "반장": 0.702
+  },
+  "B": {
+   "온장": 0.959,
+   "반장": 0.953
+  },
+  "ref": {
+   "온장": 0.875,
+   "반장": 0.875
+  }
+ },
+ "half_slots": [
+  5,
+  10
+ ],
+ "threshold_check": {
+  "온장 이동 (6, 6, 3) mm": 0.7486921139314084,
+  "온장 이동 (0, 6, 0) mm": 0.8749999999999998,
+  "온장 이동 (6, 0, 0) mm": 0.9387755102040818,
+  "온장 이동 (0, 0, 3) mm": 0.8999999999999994,
+  "반장 이동 (6, 6, 3) mm": 0.7025089605734766,
+  "반장 이동 (0, 6, 0) mm": 0.875,
+  "반장 이동 (6, 0, 0) mm": 0.875,
+  "반장 이동 (0, 0, 3) mm": 0.9
+ },
+ "conditions": {
+  "① 처음 정책 + G1 · G2 · G3 (10-22)": {
+   "bricks_filled": 208,
+   "walls_complete": 0,
+   "walls_spec_pass": 0,
+   "iou_mean_1600": 0.12088955972342977,
+   "iou_median_filled": 0.9827262467773609,
+   "pass_A": 190,
+   "pass_A_full": 190,
+   "pass_A_half": 0,
+   "pass_B": 170,
+   "pass_B_full": 170,
+   "pass_B_half": 0,
+   "pass_ref": 186,
+   "pass_ref_full": 186,
+   "pass_ref_half": 0,
+   "group": "설계",
+   "expected": {
+    "bricks_filled": 208,
+    "walls_complete": 0,
+    "walls_spec_pass": 0
+   },
+   "matches_reported": true
+  },
+  "② 시연 통일 재학습 (10-26)": {
+   "bricks_filled": 538,
+   "walls_complete": 0,
+   "walls_spec_pass": 0,
+   "iou_mean_1600": 0.30321875883818344,
+   "iou_median_filled": 0.9561178880146108,
+   "pass_A": 498,
+   "pass_A_full": 465,
+   "pass_A_half": 33,
+   "pass_B": 259,
+   "pass_B_full": 243,
+   "pass_B_half": 16,
+   "pass_ref": 431,
+   "pass_ref_full": 410,
+   "pass_ref_half": 21,
+   "group": "설계",
+   "expected": {
+    "bricks_filled": 538,
+    "walls_complete": 0,
+    "walls_spec_pass": 0
+   },
+   "matches_reported": true
+  },
+  "③ + H (11-04)": {
+   "bricks_filled": 855,
+   "walls_complete": 12,
+   "walls_spec_pass": 11,
+   "iou_mean_1600": 0.5092643179529089,
+   "iou_median_filled": 0.9813403052856081,
+   "pass_A": 821,
+   "pass_A_full": 732,
+   "pass_A_half": 89,
+   "pass_B": 744,
+   "pass_B_full": 666,
+   "pass_B_half": 78,
+   "pass_ref": 804,
+   "pass_ref_full": 715,
+   "pass_ref_half": 89,
+   "group": "설계",
+   "expected": {
+    "bricks_filled": 855,
+    "walls_complete": 12,
+    "walls_spec_pass": 11
+   },
+   "matches_reported": true
+  },
+  "④ + G0 (11-10)": {
+   "bricks_filled": 1330,
+   "walls_complete": 59,
+   "walls_spec_pass": 59,
+   "iou_mean_1600": 0.8049238474473868,
+   "iou_median_filled": 0.9799340784559134,
+   "pass_A": 1316,
+   "pass_A_full": 1133,
+   "pass_A_half": 183,
+   "pass_B": 1139,
+   "pass_B_full": 1010,
+   "pass_B_half": 129,
+   "pass_ref": 1298,
+   "pass_ref_full": 1118,
+   "pass_ref_half": 180,
+   "group": "설계",
+   "expected": {
+    "bricks_filled": 1330,
+    "walls_complete": 59,
+    "walls_spec_pass": 59
+   },
+   "matches_reported": true
+  },
+  "⑤ Full (11-10)": {
+   "bricks_filled": 1365,
+   "walls_complete": 60,
+   "walls_spec_pass": 60,
+   "iou_mean_1600": 0.8217615285274293,
+   "iou_median_filled": 0.9798947543882626,
+   "pass_A": 1331,
+   "pass_A_full": 1148,
+   "pass_A_half": 183,
+   "pass_B": 1172,
+   "pass_B_full": 1035,
+   "pass_B_half": 137,
+   "pass_ref": 1321,
+   "pass_ref_full": 1144,
+   "pass_ref_half": 177,
+   "group": "설계",
+   "expected": {
+    "bricks_filled": 1365,
+    "walls_complete": 60,
+    "walls_spec_pass": 60
+   },
+   "matches_reported": true
+  },
+  "⑥ Full + G2t (11-16)": {
+   "bricks_filled": 1462,
+   "walls_complete": 83,
+   "walls_spec_pass": 79,
+   "iou_mean_1600": 0.893037327644215,
+   "iou_median_filled": 0.9855851671658729,
+   "pass_A": 1448,
+   "pass_A_full": 1267,
+   "pass_A_half": 181,
+   "pass_B": 1414,
+   "pass_B_full": 1235,
+   "pass_B_half": 179,
+   "pass_ref": 1443,
+   "pass_ref_full": 1262,
+   "pass_ref_half": 181,
+   "group": "설계",
+   "expected": {
+    "bricks_filled": 1462,
+    "walls_complete": 83,
+    "walls_spec_pass": 79
+   },
+   "matches_reported": true
+  },
+  "⑦ 끝 구성 (11-17)": {
+   "bricks_filled": 1600,
+   "walls_complete": 100,
+   "walls_spec_pass": 96,
+   "iou_mean_1600": 0.9836697162684606,
+   "iou_median_filled": 0.9855203472745129,
+   "pass_A": 1596,
+   "pass_A_full": 1396,
+   "pass_A_half": 200,
+   "pass_B": 1590,
+   "pass_B_full": 1390,
+   "pass_B_half": 200,
+   "pass_ref": 1593,
+   "pass_ref_full": 1393,
+   "pass_ref_half": 200,
+   "group": "설계",
+   "expected": {
+    "bricks_filled": 1600,
+    "walls_complete": 100,
+    "walls_spec_pass": 96
+   },
+   "matches_reported": true
+  },
+  "검측 없음 (정책만, 11-10)": {
+   "bricks_filled": 200,
+   "walls_complete": 0,
+   "walls_spec_pass": 0,
+   "iou_mean_1600": 0.09235134237276586,
+   "iou_median_filled": 0.7330315915387067,
+   "pass_A": 80,
+   "pass_A_full": 80,
+   "pass_A_half": 0,
+   "pass_B": 0,
+   "pass_B_full": 0,
+   "pass_B_half": 0,
+   "pass_ref": 2,
+   "pass_ref_full": 2,
+   "pass_ref_half": 0,
+   "group": "설계",
+   "expected": {
+    "bricks_filled": 200,
+    "walls_complete": 0,
+    "walls_spec_pass": 0
+   },
+   "matches_reported": true
+  },
+  "Full − H": {
+   "bricks_filled": 182,
+   "walls_complete": 0,
+   "walls_spec_pass": 0,
+   "iou_mean_1600": 0.10859677235193368,
+   "iou_median_filled": 0.9782920220535032,
+   "pass_A": 175,
+   "pass_A_full": 175,
+   "pass_A_half": 0,
+   "pass_B": 140,
+   "pass_B_full": 140,
+   "pass_B_half": 0,
+   "pass_ref": 166,
+   "pass_ref_full": 166,
+   "pass_ref_half": 0,
+   "group": "역방향",
+   "expected": {
+    "bricks_filled": 182,
+    "walls_complete": 0,
+    "walls_spec_pass": 0
+   },
+   "matches_reported": true
+  },
+  "Full − G2": {
+   "bricks_filled": 768,
+   "walls_complete": 17,
+   "walls_spec_pass": 14,
+   "iou_mean_1600": 0.45689151169452347,
+   "iou_median_filled": 0.9851741166865473,
+   "pass_A": 739,
+   "pass_A_full": 650,
+   "pass_A_half": 89,
+   "pass_B": 641,
+   "pass_B_full": 573,
+   "pass_B_half": 68,
+   "pass_ref": 720,
+   "pass_ref_full": 639,
+   "pass_ref_half": 81,
+   "group": "역방향",
+   "expected": {
+    "bricks_filled": 768,
+    "walls_complete": 17,
+    "walls_spec_pass": 14
+   },
+   "matches_reported": true
+  },
+  "Full − G0": {
+   "bricks_filled": 843,
+   "walls_complete": 9,
+   "walls_spec_pass": 9,
+   "iou_mean_1600": 0.5040540684024645,
+   "iou_median_filled": 0.9816204520723287,
+   "pass_A": 814,
+   "pass_A_full": 727,
+   "pass_A_half": 87,
+   "pass_B": 742,
+   "pass_B_full": 667,
+   "pass_B_half": 75,
+   "pass_ref": 800,
+   "pass_ref_full": 714,
+   "pass_ref_half": 86,
+   "group": "역방향",
+   "expected": {
+    "bricks_filled": 843,
+    "walls_complete": 9,
+    "walls_spec_pass": 9
+   },
+   "matches_reported": true
+  },
+  "Full − G1 (11-11 재측정)": {
+   "bricks_filled": 900,
+   "walls_complete": 0,
+   "walls_spec_pass": 0,
+   "iou_mean_1600": 0.5148063092277259,
+   "iou_median_filled": 0.971715708293668,
+   "pass_A": 820,
+   "pass_A_full": 707,
+   "pass_A_half": 113,
+   "pass_B": 579,
+   "pass_B_full": 503,
+   "pass_B_half": 76,
+   "pass_ref": 744,
+   "pass_ref_full": 635,
+   "pass_ref_half": 109,
+   "group": "역방향",
+   "expected": {
+    "bricks_filled": 900,
+    "walls_complete": 0,
+    "walls_spec_pass": 0
+   },
+   "matches_reported": true
+  },
+  "Full − G3": {
+   "bricks_filled": 1067,
+   "walls_complete": 23,
+   "walls_spec_pass": 2,
+   "iou_mean_1600": 0.6054188135831106,
+   "iou_median_filled": 0.9585026647976916,
+   "pass_A": 967,
+   "pass_A_full": 844,
+   "pass_A_half": 123,
+   "pass_B": 537,
+   "pass_B_full": 490,
+   "pass_B_half": 47,
+   "pass_ref": 913,
+   "pass_ref_full": 802,
+   "pass_ref_half": 111,
+   "group": "역방향",
+   "expected": {
+    "bricks_filled": 1067,
+    "walls_complete": 23,
+    "walls_spec_pass": 2
+   },
+   "matches_reported": true
+  },
+  "Full − G2w": {
+   "bricks_filled": 1340,
+   "walls_complete": 60,
+   "walls_spec_pass": 60,
+   "iou_mean_1600": 0.8120302099671184,
+   "iou_median_filled": 0.9801875921243417,
+   "pass_A": 1331,
+   "pass_A_full": 1146,
+   "pass_A_half": 185,
+   "pass_B": 1150,
+   "pass_B_full": 1018,
+   "pass_B_half": 132,
+   "pass_ref": 1313,
+   "pass_ref_full": 1130,
+   "pass_ref_half": 183,
+   "group": "역방향",
+   "expected": {
+    "bricks_filled": 1340,
+    "walls_complete": 60,
+    "walls_spec_pass": 60
+   },
+   "matches_reported": true
+  },
+  "끝 구성 × 오차 없음": {
+   "bricks_filled": 1600,
+   "walls_complete": 100,
+   "walls_spec_pass": 96,
+   "iou_mean_1600": 0.9836697162684606,
+   "iou_median_filled": 0.9855203472745129,
+   "pass_A": 1596,
+   "pass_A_full": 1396,
+   "pass_A_half": 200,
+   "pass_B": 1590,
+   "pass_B_full": 1390,
+   "pass_B_half": 200,
+   "pass_ref": 1593,
+   "pass_ref_full": 1393,
+   "pass_ref_half": 200,
+   "group": "오차",
+   "expected": {
+    "bricks_filled": 1600,
+    "walls_complete": 100,
+    "walls_spec_pass": 96
+   },
+   "matches_reported": true
+  },
+  "끝 구성 × A": {
+   "bricks_filled": 1564,
+   "walls_complete": 94,
+   "walls_spec_pass": 93,
+   "iou_mean_1600": 0.9188092990940204,
+   "iou_median_filled": 0.9433478537746274,
+   "pass_A": 1562,
+   "pass_A_full": 1368,
+   "pass_A_half": 194,
+   "pass_B": 475,
+   "pass_B_full": 429,
+   "pass_B_half": 46,
+   "pass_ref": 1531,
+   "pass_ref_full": 1363,
+   "pass_ref_half": 168,
+   "group": "오차",
+   "expected": {
+    "bricks_filled": 1564,
+    "walls_complete": 94,
+    "walls_spec_pass": 93
+   },
+   "matches_reported": true
+  },
+  "끝 구성 × B": {
+   "bricks_filled": 1600,
+   "walls_complete": 100,
+   "walls_spec_pass": 100,
+   "iou_mean_1600": 0.9854659973159912,
+   "iou_median_filled": 0.98582842859159,
+   "pass_A": 1600,
+   "pass_A_full": 1400,
+   "pass_A_half": 200,
+   "pass_B": 1600,
+   "pass_B_full": 1400,
+   "pass_B_half": 200,
+   "pass_ref": 1600,
+   "pass_ref_full": 1400,
+   "pass_ref_half": 200,
+   "group": "오차",
+   "expected": {
+    "bricks_filled": 1600,
+    "walls_complete": 100,
+    "walls_spec_pass": 100
+   },
+   "matches_reported": true
+  },
+  "끝 구성 × A + B": {
+   "bricks_filled": 1552,
+   "walls_complete": 92,
+   "walls_spec_pass": 92,
+   "iou_mean_1600": 0.912767690322296,
+   "iou_median_filled": 0.9437053435189999,
+   "pass_A": 1552,
+   "pass_A_full": 1360,
+   "pass_A_half": 192,
+   "pass_B": 476,
+   "pass_B_full": 435,
+   "pass_B_half": 41,
+   "pass_ref": 1519,
+   "pass_ref_full": 1352,
+   "pass_ref_half": 167,
+   "group": "오차",
+   "expected": {
+    "bricks_filled": 1552,
+    "walls_complete": 92,
+    "walls_spec_pass": 92
+   },
+   "matches_reported": true
+  }
+ },
+ "pairs": {
+  "② 시연 통일 재학습 (10-26) − ① 처음 정책 + G1 · G2 · G3 (10-22)": {
+   "kind": "설계: 직전 단계 대비",
+   "filled_per_wall": {
+    "diff": 3.3,
+    "ci": [
+     2.98,
+     3.62
+    ]
+   },
+   "pass_A_sum": {
+    "diff": 308.0,
+    "ci": [
+     276.0,
+     340.0
+    ]
+   },
+   "pass_B_sum": {
+    "diff": 89.0,
+    "ci": [
+     68.0,
+     111.00000000000001
+    ]
+   },
+   "pass_ref_sum": {
+    "diff": 245.00000000000003,
+    "ci": [
+     215.0,
+     274.0
+    ]
+   }
+  },
+  "③ + H (11-04) − ② 시연 통일 재학습 (10-26)": {
+   "kind": "설계: 직전 단계 대비",
+   "filled_per_wall": {
+    "diff": 3.17,
+    "ci": [
+     2.55,
+     3.82
+    ]
+   },
+   "pass_A_sum": {
+    "diff": 323.0,
+    "ci": [
+     258.0,
+     392.0
+    ]
+   },
+   "pass_B_sum": {
+    "diff": 484.99999999999994,
+    "ci": [
+     420.9750000000001,
+     552.0
+    ]
+   },
+   "pass_ref_sum": {
+    "diff": 373.0,
+    "ci": [
+     308.975,
+     442.0
+    ]
+   }
+  },
+  "④ + G0 (11-10) − ③ + H (11-04)": {
+   "kind": "설계: 직전 단계 대비",
+   "filled_per_wall": {
+    "diff": 4.75,
+    "ci": [
+     3.72,
+     5.75
+    ]
+   },
+   "pass_A_sum": {
+    "diff": 495.0,
+    "ci": [
+     389.975,
+     599.0
+    ]
+   },
+   "pass_B_sum": {
+    "diff": 395.0,
+    "ci": [
+     289.0,
+     498.00000000000006
+    ]
+   },
+   "pass_ref_sum": {
+    "diff": 494.00000000000006,
+    "ci": [
+     385.0,
+     602.0
+    ]
+   }
+  },
+  "⑤ Full (11-10) − ④ + G0 (11-10)": {
+   "kind": "설계: 직전 단계 대비",
+   "filled_per_wall": {
+    "diff": 0.35,
+    "ci": [
+     -0.08,
+     0.79
+    ]
+   },
+   "pass_A_sum": {
+    "diff": 15.0,
+    "ci": [
+     -32.0,
+     63.0
+    ]
+   },
+   "pass_B_sum": {
+    "diff": 33.0,
+    "ci": [
+     -16.0,
+     83.0
+    ]
+   },
+   "pass_ref_sum": {
+    "diff": 23.0,
+    "ci": [
+     -26.0,
+     73.0
+    ]
+   }
+  },
+  "⑥ Full + G2t (11-16) − ⑤ Full (11-10)": {
+   "kind": "설계: 직전 단계 대비",
+   "filled_per_wall": {
+    "diff": 0.97,
+    "ci": [
+     -0.02,
+     1.95
+    ]
+   },
+   "pass_A_sum": {
+    "diff": 117.0,
+    "ci": [
+     9.0,
+     224.00000000000003
+    ]
+   },
+   "pass_B_sum": {
+    "diff": 242.0,
+    "ci": [
+     133.0,
+     350.0
+    ]
+   },
+   "pass_ref_sum": {
+    "diff": 122.0,
+    "ci": [
+     12.0,
+     231.0
+    ]
+   }
+  },
+  "⑦ 끝 구성 (11-17) − ⑥ Full + G2t (11-16)": {
+   "kind": "설계: 직전 단계 대비",
+   "filled_per_wall": {
+    "diff": 1.38,
+    "ci": [
+     0.74,
+     2.1
+    ]
+   },
+   "pass_A_sum": {
+    "diff": 148.0,
+    "ci": [
+     81.0,
+     225.0
+    ]
+   },
+   "pass_B_sum": {
+    "diff": 176.0,
+    "ci": [
+     109.00000000000001,
+     252.0
+    ]
+   },
+   "pass_ref_sum": {
+    "diff": 150.0,
+    "ci": [
+     83.0,
+     225.99999999999997
+    ]
+   }
+  },
+  "Full − H − ⑤ Full (11-10)": {
+   "kind": "역방향: Full 대비",
+   "filled_per_wall": {
+    "diff": -11.83,
+    "ci": [
+     -12.46,
+     -11.15
+    ]
+   },
+   "pass_A_sum": {
+    "diff": -1156.0,
+    "ci": [
+     -1226.0,
+     -1081.0
+    ]
+   },
+   "pass_B_sum": {
+    "diff": -1032.0,
+    "ci": [
+     -1107.0,
+     -953.9999999999999
+    ]
+   },
+   "pass_ref_sum": {
+    "diff": -1155.0,
+    "ci": [
+     -1229.0,
+     -1076.0
+    ]
+   }
+  },
+  "Full − G2 − ⑤ Full (11-10)": {
+   "kind": "역방향: Full 대비",
+   "filled_per_wall": {
+    "diff": -5.97,
+    "ci": [
+     -6.97,
+     -4.96
+    ]
+   },
+   "pass_A_sum": {
+    "diff": -592.0,
+    "ci": [
+     -697.0,
+     -486.97500000000036
+    ]
+   },
+   "pass_B_sum": {
+    "diff": -531.0,
+    "ci": [
+     -630.0,
+     -430.99999999999994
+    ]
+   },
+   "pass_ref_sum": {
+    "diff": -601.0,
+    "ci": [
+     -708.0,
+     -494.00000000000006
+    ]
+   }
+  },
+  "Full − G0 − ⑤ Full (11-10)": {
+   "kind": "역방향: Full 대비",
+   "filled_per_wall": {
+    "diff": -5.22,
+    "ci": [
+     -6.2,
+     -4.17
+    ]
+   },
+   "pass_A_sum": {
+    "diff": -517.0,
+    "ci": [
+     -621.0,
+     -407.0
+    ]
+   },
+   "pass_B_sum": {
+    "diff": -430.0,
+    "ci": [
+     -531.0,
+     -328.97500000000036
+    ]
+   },
+   "pass_ref_sum": {
+    "diff": -521.0,
+    "ci": [
+     -628.0,
+     -408.0
+    ]
+   }
+  },
+  "Full − G1 (11-11 재측정) − ⑤ Full (11-10)": {
+   "kind": "역방향: Full 대비",
+   "filled_per_wall": {
+    "diff": -4.65,
+    "ci": [
+     -5.41,
+     -3.83
+    ]
+   },
+   "pass_A_sum": {
+    "diff": -511.00000000000006,
+    "ci": [
+     -592.0,
+     -424.0
+    ]
+   },
+   "pass_B_sum": {
+    "diff": -593.0,
+    "ci": [
+     -675.0,
+     -505.0
+    ]
+   },
+   "pass_ref_sum": {
+    "diff": -577.0,
+    "ci": [
+     -663.0,
+     -484.99999999999994
+    ]
+   }
+  },
+  "Full − G3 − ⑤ Full (11-10)": {
+   "kind": "역방향: Full 대비",
+   "filled_per_wall": {
+    "diff": -2.98,
+    "ci": [
+     -3.91,
+     -2.05
+    ]
+   },
+   "pass_A_sum": {
+    "diff": -364.0,
+    "ci": [
+     -472.0249999999999,
+     -257.0
+    ]
+   },
+   "pass_B_sum": {
+    "diff": -635.0,
+    "ci": [
+     -725.0,
+     -544.9750000000004
+    ]
+   },
+   "pass_ref_sum": {
+    "diff": -408.0,
+    "ci": [
+     -516.0,
+     -300.0
+    ]
+   }
+  },
+  "Full − G2w − ⑤ Full (11-10)": {
+   "kind": "역방향: Full 대비",
+   "filled_per_wall": {
+    "diff": -0.25,
+    "ci": [
+     -0.72,
+     0.25
+    ]
+   },
+   "pass_A_sum": {
+    "diff": 0.0,
+    "ci": [
+     -52.02499999999998,
+     53.0
+    ]
+   },
+   "pass_B_sum": {
+    "diff": -22.0,
+    "ci": [
+     -72.0,
+     28.000000000000004
+    ]
+   },
+   "pass_ref_sum": {
+    "diff": -8.0,
+    "ci": [
+     -64.0,
+     48.0
+    ]
+   }
+  },
+  "끝 구성 × A − 끝 구성 × 오차 없음": {
+   "kind": "오차: 오차 없음 대비 (참고)",
+   "filled_per_wall": {
+    "diff": -0.36,
+    "ci": [
+     -0.66,
+     -0.12
+    ]
+   },
+   "pass_A_sum": {
+    "diff": -34.0,
+    "ci": [
+     -64.0,
+     -8.0
+    ]
+   },
+   "pass_B_sum": {
+    "diff": -1115.0,
+    "ci": [
+     -1220.0,
+     -1008.0
+    ]
+   },
+   "pass_ref_sum": {
+    "diff": -62.0,
+    "ci": [
+     -95.0,
+     -33.0
+    ]
+   }
+  },
+  "끝 구성 × B − 끝 구성 × 오차 없음": {
+   "kind": "오차: 오차 없음 대비 (참고)",
+   "filled_per_wall": {
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "pass_A_sum": {
+    "diff": 4.0,
+    "ci": [
+     0.0,
+     9.0
+    ]
+   },
+   "pass_B_sum": {
+    "diff": 10.0,
+    "ci": [
+     2.0,
+     20.0
+    ]
+   },
+   "pass_ref_sum": {
+    "diff": 7.000000000000001,
+    "ci": [
+     1.0,
+     15.0
+    ]
+   }
+  },
+  "끝 구성 × A + B − 끝 구성 × 오차 없음": {
+   "kind": "오차: 오차 없음 대비 (참고)",
+   "filled_per_wall": {
+    "diff": -0.48,
+    "ci": [
+     -0.84,
+     -0.18
+    ]
+   },
+   "pass_A_sum": {
+    "diff": -44.0,
+    "ci": [
+     -78.0,
+     -14.000000000000002
+    ]
+   },
+   "pass_B_sum": {
+    "diff": -1114.0,
+    "ci": [
+     -1222.0,
+     -1006.0
+    ]
+   },
+   "pass_ref_sum": {
+    "diff": -74.0,
+    "ci": [
+     -111.00000000000001,
+     -41.0
+    ]
+   }
+  }
+ },
+ "files": {
+  "① 처음 정책 + G1 · G2 · G3 (10-22)": [
+   {
+    "path": "outputs/wall3/eval_gates_20261022/act_all_part0/rollout.json",
+    "sha16": "97a0ea64130489f2"
+   },
+   {
+    "path": "outputs/wall3/eval_gates_20261022/act_all_part1/rollout.json",
+    "sha16": "cc73c3cb2f0307fe"
+   },
+   {
+    "path": "outputs/wall3/eval_gates_20261022/act_all_part2/rollout.json",
+    "sha16": "718e469241a2ca12"
+   },
+   {
+    "path": "outputs/wall3/eval_gates_20261022/act_all_part3/rollout.json",
+    "sha16": "68969e763ef32d3f"
+   },
+   {
+    "path": "outputs/wall3/eval_gates_20261022/act_all_part4/rollout.json",
+    "sha16": "408747ad969619aa"
+   }
+  ],
+  "② 시연 통일 재학습 (10-26)": [
+   {
+    "path": "outputs/wall3/eval_gates_v2_20261026/act_all_part0/rollout.json",
+    "sha16": "dfdbe95aef586063"
+   },
+   {
+    "path": "outputs/wall3/eval_gates_v2_20261026/act_all_part1/rollout.json",
+    "sha16": "0e56cc93b99599ba"
+   },
+   {
+    "path": "outputs/wall3/eval_gates_v2_20261026/act_all_part2/rollout.json",
+    "sha16": "3d18bb3a63a79ad2"
+   },
+   {
+    "path": "outputs/wall3/eval_gates_v2_20261026/act_all_part3/rollout.json",
+    "sha16": "0e05c6992400202c"
+   },
+   {
+    "path": "outputs/wall3/eval_gates_v2_20261026/act_all_part4/rollout.json",
+    "sha16": "d4bac1859490b076"
+   }
+  ],
+  "③ + H (11-04)": [
+   {
+    "path": "outputs/wall3/eval_gates_info_20261104/act_all_held_part0/rollout.json",
+    "sha16": "1a597eec5ce101c0"
+   },
+   {
+    "path": "outputs/wall3/eval_gates_info_20261104/act_all_held_part1/rollout.json",
+    "sha16": "ff3ec7347acc04f2"
+   },
+   {
+    "path": "outputs/wall3/eval_gates_info_20261104/act_all_held_part2/rollout.json",
+    "sha16": "6e149b7f2f80cbed"
+   },
+   {
+    "path": "outputs/wall3/eval_gates_info_20261104/act_all_held_part3/rollout.json",
+    "sha16": "3078d3299bb84f39"
+   },
+   {
+    "path": "outputs/wall3/eval_gates_info_20261104/act_all_held_part4/rollout.json",
+    "sha16": "337d71966a6f3780"
+   }
+  ],
+  "④ + G0 (11-10)": [
+   {
+    "path": "outputs/wall3/eval_ladder1_20261110/act_all_held+k2_part0/rollout.json",
+    "sha16": "e1d1a324cc09767a"
+   },
+   {
+    "path": "outputs/wall3/eval_ladder1_20261110/act_all_held+k2_part1/rollout.json",
+    "sha16": "8eb03cf17e3ec8f6"
+   },
+   {
+    "path": "outputs/wall3/eval_ladder1_20261110/act_all_held+k2_part2/rollout.json",
+    "sha16": "7cfa8dace5d29791"
+   },
+   {
+    "path": "outputs/wall3/eval_ladder1_20261110/act_all_held+k2_part3/rollout.json",
+    "sha16": "d861ebde487a86e8"
+   },
+   {
+    "path": "outputs/wall3/eval_ladder1_20261110/act_all_held+k2_part4/rollout.json",
+    "sha16": "7fd991aa205c50cf"
+   }
+  ],
+  "⑤ Full (11-10)": [
+   {
+    "path": "outputs/wall3/eval_lf_full_20261110/act_all_held+k2+k7_part0/rollout.json",
+    "sha16": "c2a9981dcc3a472a"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_full_20261110/act_all_held+k2+k7_part1/rollout.json",
+    "sha16": "f30bd2632c542b81"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_full_20261110/act_all_held+k2+k7_part2/rollout.json",
+    "sha16": "ff12c6e60b3214e8"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_full_20261110/act_all_held+k2+k7_part3/rollout.json",
+    "sha16": "609d022dc7ed66d6"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_full_20261110/act_all_held+k2+k7_part4/rollout.json",
+    "sha16": "52ae2cf0320e708a"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_full_20261110/act_all_held+k2+k7_part5/rollout.json",
+    "sha16": "57659f53502733f7"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_full_20261110/act_all_held+k2+k7_part6/rollout.json",
+    "sha16": "ad86d8cf07efe4b2"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_full_20261110/act_all_held+k2+k7_part7/rollout.json",
+    "sha16": "72d5395cfd384fcf"
+   }
+  ],
+  "⑥ Full + G2t (11-16)": [
+   {
+    "path": "outputs/wall3/eval_g2t_20261116/act_all_held+k2+k7+g2t_part0/rollout.json",
+    "sha16": "1b371f1cea9a02f3"
+   },
+   {
+    "path": "outputs/wall3/eval_g2t_20261116/act_all_held+k2+k7+g2t_part1/rollout.json",
+    "sha16": "41a9bd634b92e367"
+   },
+   {
+    "path": "outputs/wall3/eval_g2t_20261116/act_all_held+k2+k7+g2t_part2/rollout.json",
+    "sha16": "ff22e0c402e9b320"
+   },
+   {
+    "path": "outputs/wall3/eval_g2t_20261116/act_all_held+k2+k7+g2t_part3/rollout.json",
+    "sha16": "f4e0ea02da799830"
+   },
+   {
+    "path": "outputs/wall3/eval_g2t_20261116/act_all_held+k2+k7+g2t_part4/rollout.json",
+    "sha16": "c0a623f42a8e4b9e"
+   },
+   {
+    "path": "outputs/wall3/eval_g2t_20261116/act_all_held+k2+k7+g2t_part5/rollout.json",
+    "sha16": "917911492957c6e1"
+   },
+   {
+    "path": "outputs/wall3/eval_g2t_20261116/act_all_held+k2+k7+g2t_part6/rollout.json",
+    "sha16": "c6257c1a754f5aa0"
+   },
+   {
+    "path": "outputs/wall3/eval_g2t_20261116/act_all_held+k2+k7+g2t_part7/rollout.json",
+    "sha16": "ddea9165d3a91473"
+   }
+  ],
+  "⑦ 끝 구성 (11-17)": [
+   {
+    "path": "outputs/wall3/eval_real_act_none_20261116/act_real_none_part0/rollout.json",
+    "sha16": "e29767e6e1553c7c"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_none_20261116/act_real_none_part1/rollout.json",
+    "sha16": "e4e9cc197955cb82"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_none_20261116/act_real_none_part2/rollout.json",
+    "sha16": "f09eccb6ef6e0139"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_none_20261116/act_real_none_part3/rollout.json",
+    "sha16": "d29b6b5b4509fe0a"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_none_20261116/act_real_none_part4/rollout.json",
+    "sha16": "2e3cf6880d3b6c8c"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_none_20261116/act_real_none_part5/rollout.json",
+    "sha16": "7e52e6901f2ff7d1"
+   }
+  ],
+  "검측 없음 (정책만, 11-10)": [
+   {
+    "path": "outputs/wall3/eval_lf_none_20261110/act_none_part0/rollout.json",
+    "sha16": "ecb85572a6467c42"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_none_20261110/act_none_part1/rollout.json",
+    "sha16": "ad95e9b4cb61cf8f"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_none_20261110/act_none_part2/rollout.json",
+    "sha16": "1642b266083c856a"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_none_20261110/act_none_part3/rollout.json",
+    "sha16": "02099e2e76ee4b50"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_none_20261110/act_none_part4/rollout.json",
+    "sha16": "e4dbc8f74208c1ae"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_none_20261110/act_none_part5/rollout.json",
+    "sha16": "1f41d7da015d2200"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_none_20261110/act_none_part6/rollout.json",
+    "sha16": "b6231c691a985265"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_none_20261110/act_none_part7/rollout.json",
+    "sha16": "f309eaad61634bed"
+   }
+  ],
+  "Full − H": [
+   {
+    "path": "outputs/wall3/eval_lf_noH_20261110/act_all+k2+k7_part0/rollout.json",
+    "sha16": "e3ac98a98f77ad5e"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noH_20261110/act_all+k2+k7_part1/rollout.json",
+    "sha16": "e72f12dbe5d71d15"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noH_20261110/act_all+k2+k7_part2/rollout.json",
+    "sha16": "40673c45ee5d9f4d"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noH_20261110/act_all+k2+k7_part3/rollout.json",
+    "sha16": "8a93e528eaad98c0"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noH_20261110/act_all+k2+k7_part4/rollout.json",
+    "sha16": "ad4a1a5ad1ab8cc8"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noH_20261110/act_all+k2+k7_part5/rollout.json",
+    "sha16": "c9b01d6dc577a386"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noH_20261110/act_all+k2+k7_part6/rollout.json",
+    "sha16": "55bb82263d6c2ef8"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noH_20261110/act_all+k2+k7_part7/rollout.json",
+    "sha16": "d78ecc300cd777aa"
+   }
+  ],
+  "Full − G2": [
+   {
+    "path": "outputs/wall3/eval_lf_noG2_20261110/act_g1g3_held+k2_part0/rollout.json",
+    "sha16": "e990f58c8638357f"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG2_20261110/act_g1g3_held+k2_part1/rollout.json",
+    "sha16": "2bcd3eab10b6e757"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG2_20261110/act_g1g3_held+k2_part2/rollout.json",
+    "sha16": "3970515a942c2df0"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG2_20261110/act_g1g3_held+k2_part3/rollout.json",
+    "sha16": "b1d04799c5e74601"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG2_20261110/act_g1g3_held+k2_part4/rollout.json",
+    "sha16": "83ec22901610c53e"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG2_20261110/act_g1g3_held+k2_part5/rollout.json",
+    "sha16": "e023ecb42be6fd8f"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG2_20261110/act_g1g3_held+k2_part6/rollout.json",
+    "sha16": "adfa6aaff15c74c5"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG2_20261110/act_g1g3_held+k2_part7/rollout.json",
+    "sha16": "d14b6fe5dc91d1fe"
+   }
+  ],
+  "Full − G0": [
+   {
+    "path": "outputs/wall3/eval_lf_noG0_20261110/act_all_held+k7_part0/rollout.json",
+    "sha16": "d97a82c5f475821a"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG0_20261110/act_all_held+k7_part1/rollout.json",
+    "sha16": "bb94017ea93a6285"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG0_20261110/act_all_held+k7_part2/rollout.json",
+    "sha16": "62cfce629b35117a"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG0_20261110/act_all_held+k7_part3/rollout.json",
+    "sha16": "5c22cf9806d00762"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG0_20261110/act_all_held+k7_part4/rollout.json",
+    "sha16": "6df92860278718e4"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG0_20261110/act_all_held+k7_part5/rollout.json",
+    "sha16": "4a45c5d6e61f7f01"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG0_20261110/act_all_held+k7_part6/rollout.json",
+    "sha16": "383afbf567da337a"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG0_20261110/act_all_held+k7_part7/rollout.json",
+    "sha16": "78338e859b2796a1"
+   }
+  ],
+  "Full − G1 (11-11 재측정)": [
+   {
+    "path": "outputs/wall3/eval_lf_noG1fix_20261111/act_g2g3_held+k2+k7_part0/rollout.json",
+    "sha16": "5826a320067456ad"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG1fix_20261111/act_g2g3_held+k2+k7_part1/rollout.json",
+    "sha16": "0c3444b1997fe632"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG1fix_20261111/act_g2g3_held+k2+k7_part2/rollout.json",
+    "sha16": "4557305926a78e70"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG1fix_20261111/act_g2g3_held+k2+k7_part3/rollout.json",
+    "sha16": "f605b31fc9d52099"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG1fix_20261111/act_g2g3_held+k2+k7_part4/rollout.json",
+    "sha16": "e1882e8b3d72f4a5"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG1fix_20261111/act_g2g3_held+k2+k7_part5/rollout.json",
+    "sha16": "ff7c86fbb56a3f3d"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG1fix_20261111/act_g2g3_held+k2+k7_part6/rollout.json",
+    "sha16": "8c70db9d8545796b"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG1fix_20261111/act_g2g3_held+k2+k7_part7/rollout.json",
+    "sha16": "362bfe163cf10f13"
+   }
+  ],
+  "Full − G3": [
+   {
+    "path": "outputs/wall3/eval_lf_noG3_20261110/act_g1g2_held+k2+k7_part0/rollout.json",
+    "sha16": "3ee3923f9b04a7d1"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG3_20261110/act_g1g2_held+k2+k7_part1/rollout.json",
+    "sha16": "889264cc460b6341"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG3_20261110/act_g1g2_held+k2+k7_part2/rollout.json",
+    "sha16": "45ca22a6ec580183"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG3_20261110/act_g1g2_held+k2+k7_part3/rollout.json",
+    "sha16": "23c52cb5c1364db8"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG3_20261110/act_g1g2_held+k2+k7_part4/rollout.json",
+    "sha16": "290c2049161ebe26"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG3_20261110/act_g1g2_held+k2+k7_part5/rollout.json",
+    "sha16": "8850f88a6e632c8b"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG3_20261110/act_g1g2_held+k2+k7_part6/rollout.json",
+    "sha16": "d98e7c5b0e6510c9"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG3_20261110/act_g1g2_held+k2+k7_part7/rollout.json",
+    "sha16": "7525fefec6c6f463"
+   }
+  ],
+  "Full − G2w": [
+   {
+    "path": "outputs/wall3/eval_lf_noG2w_20261110/act_all_held+k2_part0/rollout.json",
+    "sha16": "37959cf401c7a64b"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG2w_20261110/act_all_held+k2_part1/rollout.json",
+    "sha16": "48e641312437e494"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG2w_20261110/act_all_held+k2_part2/rollout.json",
+    "sha16": "33bbcbdb18344f6a"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG2w_20261110/act_all_held+k2_part3/rollout.json",
+    "sha16": "6c05328481f9c4f3"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG2w_20261110/act_all_held+k2_part4/rollout.json",
+    "sha16": "0f1e8137b70ca564"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG2w_20261110/act_all_held+k2_part5/rollout.json",
+    "sha16": "b7cad199d32a78a6"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG2w_20261110/act_all_held+k2_part6/rollout.json",
+    "sha16": "e52096c124fdae16"
+   },
+   {
+    "path": "outputs/wall3/eval_lf_noG2w_20261110/act_all_held+k2_part7/rollout.json",
+    "sha16": "47bb474b229f587c"
+   }
+  ],
+  "끝 구성 × 오차 없음": [
+   {
+    "path": "outputs/wall3/eval_real_act_none_20261116/act_real_none_part0/rollout.json",
+    "sha16": "e29767e6e1553c7c"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_none_20261116/act_real_none_part1/rollout.json",
+    "sha16": "e4e9cc197955cb82"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_none_20261116/act_real_none_part2/rollout.json",
+    "sha16": "f09eccb6ef6e0139"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_none_20261116/act_real_none_part3/rollout.json",
+    "sha16": "d29b6b5b4509fe0a"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_none_20261116/act_real_none_part4/rollout.json",
+    "sha16": "2e3cf6880d3b6c8c"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_none_20261116/act_real_none_part5/rollout.json",
+    "sha16": "7e52e6901f2ff7d1"
+   }
+  ],
+  "끝 구성 × A": [
+   {
+    "path": "outputs/wall3/eval_real_act_A_20261116/act_real_A_part0/rollout.json",
+    "sha16": "b387dd54ca6553fe"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_A_20261116/act_real_A_part1/rollout.json",
+    "sha16": "3d0b59510e7f7773"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_A_20261116/act_real_A_part2/rollout.json",
+    "sha16": "b957759e518d3542"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_A_20261116/act_real_A_part3/rollout.json",
+    "sha16": "cce3a7b682a67956"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_A_20261116/act_real_A_part4/rollout.json",
+    "sha16": "1bf1e70c1af5ec0d"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_A_20261116/act_real_A_part5/rollout.json",
+    "sha16": "392bc0d464f0fad6"
+   }
+  ],
+  "끝 구성 × B": [
+   {
+    "path": "outputs/wall3/eval_real_act_B_20261116/act_real_B_part0/rollout.json",
+    "sha16": "cbeff7c7feafa5b4"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_B_20261116/act_real_B_part1/rollout.json",
+    "sha16": "d8b99296814c4fe7"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_B_20261116/act_real_B_part2/rollout.json",
+    "sha16": "c30971294872dc48"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_B_20261116/act_real_B_part3/rollout.json",
+    "sha16": "a0ee87ae9d77e7bd"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_B_20261116/act_real_B_part4/rollout.json",
+    "sha16": "2478e8e9243a35c9"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_B_20261116/act_real_B_part5/rollout.json",
+    "sha16": "48453d2dd402f61a"
+   }
+  ],
+  "끝 구성 × A + B": [
+   {
+    "path": "outputs/wall3/eval_real_act_AB_20261116/act_real_AB_part0/rollout.json",
+    "sha16": "e066a66b67228985"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_AB_20261116/act_real_AB_part1/rollout.json",
+    "sha16": "81559d72af513231"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_AB_20261116/act_real_AB_part2/rollout.json",
+    "sha16": "8633d7684acbc747"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_AB_20261116/act_real_AB_part3/rollout.json",
+    "sha16": "a5febe1d6b6e6566"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_AB_20261116/act_real_AB_part4/rollout.json",
+    "sha16": "5f7aca6f8d00d250"
+   },
+   {
+    "path": "outputs/wall3/eval_real_act_AB_20261116/act_real_AB_part5/rollout.json",
+    "sha16": "d0313868285bd0c8"
+   }
+  ]
+ }
+}

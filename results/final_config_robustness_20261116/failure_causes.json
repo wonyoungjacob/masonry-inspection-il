@@ -1,0 +1,524 @@
+{
+ "note": "개발 배치 100벽 · 최종 평가 아님 · 참값은 진단에만",
+ "g0_zone_mm": 60.0,
+ "rise_mm": 5.0,
+ "conditions": {
+  "act_none": {
+   "kinds": {
+    "안 건드림 · 완성": 100
+   },
+   "walls": [],
+   "g0v_slot10_takeover_off_mm": {
+    "n": 100,
+    "median": 40.55,
+    "p90": 47.9,
+    "max": 54.6,
+    "over_50": 9
+   }
+  },
+  "act_A": {
+   "kinds": {
+    "넘어뜨림 · 미완성": 5,
+    "안 건드림 · 완성": 94,
+    "정책이 쥠 · 미완성": 1
+   },
+   "walls": [
+    {
+     "seed": 700331,
+     "complete": false,
+     "filled": 10,
+     "unfilled": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "touched_first": [
+      {
+       "supply_slot": 10,
+       "t": 2635,
+       "rise_mm": 61.2,
+       "g1_grasped": true,
+       "g0v_after": []
+      }
+     ]
+    },
+    {
+     "seed": 700342,
+     "complete": false,
+     "filled": 10,
+     "unfilled": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "touched_first": [
+      {
+       "supply_slot": 10,
+       "t": 2630,
+       "rise_mm": 16.5,
+       "g1_grasped": false,
+       "g0v_after": [
+        "not_seen",
+        "not_seen"
+       ]
+      }
+     ]
+    },
+    {
+     "seed": 700351,
+     "complete": false,
+     "filled": 10,
+     "unfilled": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "touched_first": [
+      {
+       "supply_slot": 10,
+       "t": 2547,
+       "rise_mm": 16.5,
+       "g1_grasped": false,
+       "g0v_after": [
+        "not_seen",
+        "not_seen"
+       ]
+      }
+     ]
+    },
+    {
+     "seed": 700375,
+     "complete": false,
+     "filled": 10,
+     "unfilled": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "touched_first": [
+      {
+       "supply_slot": 10,
+       "t": 2655,
+       "rise_mm": 16.5,
+       "g1_grasped": false,
+       "g0v_after": [
+        "not_seen",
+        "not_seen"
+       ]
+      }
+     ]
+    },
+    {
+     "seed": 700380,
+     "complete": false,
+     "filled": 10,
+     "unfilled": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "touched_first": [
+      {
+       "supply_slot": 10,
+       "t": 2744,
+       "rise_mm": 16.5,
+       "g1_grasped": false,
+       "g0v_after": [
+        "not_seen",
+        "not_seen"
+       ]
+      }
+     ]
+    },
+    {
+     "seed": 700381,
+     "complete": false,
+     "filled": 10,
+     "unfilled": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "touched_first": [
+      {
+       "supply_slot": 10,
+       "t": 2639,
+       "rise_mm": 16.5,
+       "g1_grasped": false,
+       "g0v_after": [
+        "not_seen",
+        "not_seen"
+       ]
+      }
+     ]
+    }
+   ],
+   "g0v_slot10_takeover_off_mm": {
+    "n": 94,
+    "median": 46.45,
+    "p90": 59.51,
+    "max": 60.0,
+    "over_50": 39
+   }
+  },
+  "act_B": {
+   "kinds": {
+    "안 건드림 · 완성": 100
+   },
+   "walls": [],
+   "g0v_slot10_takeover_off_mm": {
+    "n": 100,
+    "median": 42.45,
+    "p90": 51.21,
+    "max": 59.8,
+    "over_50": 16
+   }
+  },
+  "act_AB": {
+   "kinds": {
+    "넘어뜨림 · 미완성": 6,
+    "안 건드림 · 완성": 88,
+    "정책이 쥠 · 미완성": 2,
+    "정책이 쥠 · 완성": 4
+   },
+   "walls": [
+    {
+     "seed": 700300,
+     "complete": false,
+     "filled": 10,
+     "unfilled": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "touched_first": [
+      {
+       "supply_slot": 10,
+       "t": 2651,
+       "rise_mm": 17.6,
+       "g1_grasped": false,
+       "g0v_after": [
+        "not_seen",
+        "not_seen"
+       ]
+      }
+     ]
+    },
+    {
+     "seed": 700302,
+     "complete": false,
+     "filled": 10,
+     "unfilled": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "touched_first": [
+      {
+       "supply_slot": 10,
+       "t": 2639,
+       "rise_mm": 16.2,
+       "g1_grasped": false,
+       "g0v_after": [
+        "not_seen",
+        "not_seen"
+       ]
+      }
+     ]
+    },
+    {
+     "seed": 700308,
+     "complete": false,
+     "filled": 10,
+     "unfilled": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "touched_first": [
+      {
+       "supply_slot": 10,
+       "t": 2634,
+       "rise_mm": 16.5,
+       "g1_grasped": false,
+       "g0v_after": [
+        "not_seen",
+        "not_seen"
+       ]
+      }
+     ]
+    },
+    {
+     "seed": 700309,
+     "complete": false,
+     "filled": 10,
+     "unfilled": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "touched_first": [
+      {
+       "supply_slot": 10,
+       "t": 2635,
+       "rise_mm": 16.5,
+       "g1_grasped": false,
+       "g0v_after": [
+        "not_seen",
+        "not_seen"
+       ]
+      }
+     ]
+    },
+    {
+     "seed": 700351,
+     "complete": true,
+     "filled": 16,
+     "unfilled": [],
+     "touched_first": [
+      {
+       "supply_slot": 10,
+       "t": 2547,
+       "rise_mm": 70.7,
+       "g1_grasped": true,
+       "g0v_after": []
+      }
+     ]
+    },
+    {
+     "seed": 700358,
+     "complete": false,
+     "filled": 10,
+     "unfilled": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "touched_first": [
+      {
+       "supply_slot": 10,
+       "t": 2657,
+       "rise_mm": 16.5,
+       "g1_grasped": false,
+       "g0v_after": [
+        "not_seen",
+        "not_seen"
+       ]
+      }
+     ]
+    },
+    {
+     "seed": 700364,
+     "complete": true,
+     "filled": 16,
+     "unfilled": [],
+     "touched_first": [
+      {
+       "supply_slot": 10,
+       "t": 2632,
+       "rise_mm": 82.6,
+       "g1_grasped": true,
+       "g0v_after": []
+      }
+     ]
+    },
+    {
+     "seed": 700366,
+     "complete": true,
+     "filled": 16,
+     "unfilled": [],
+     "touched_first": [
+      {
+       "supply_slot": 10,
+       "t": 2556,
+       "rise_mm": 60.3,
+       "g1_grasped": true,
+       "g0v_after": []
+      }
+     ]
+    },
+    {
+     "seed": 700376,
+     "complete": true,
+     "filled": 16,
+     "unfilled": [],
+     "touched_first": [
+      {
+       "supply_slot": 10,
+       "t": 2649,
+       "rise_mm": 68.1,
+       "g1_grasped": true,
+       "g0v_after": []
+      }
+     ]
+    },
+    {
+     "seed": 700380,
+     "complete": false,
+     "filled": 10,
+     "unfilled": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "touched_first": [
+      {
+       "supply_slot": 10,
+       "t": 2643,
+       "rise_mm": 84.4,
+       "g1_grasped": true,
+       "g0v_after": []
+      }
+     ]
+    },
+    {
+     "seed": 700381,
+     "complete": false,
+     "filled": 10,
+     "unfilled": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "touched_first": [
+      {
+       "supply_slot": 10,
+       "t": 2638,
+       "rise_mm": 58.8,
+       "g1_grasped": true,
+       "g0v_after": []
+      }
+     ]
+    },
+    {
+     "seed": 700398,
+     "complete": false,
+     "filled": 10,
+     "unfilled": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "touched_first": [
+      {
+       "supply_slot": 10,
+       "t": 2556,
+       "rise_mm": 16.5,
+       "g1_grasped": false,
+       "g0v_after": [
+        "not_seen",
+        "not_seen"
+       ]
+      }
+     ]
+    }
+   ],
+   "g0v_slot10_takeover_off_mm": {
+    "n": 88,
+    "median": 51.95,
+    "p90": 59.63,
+    "max": 60.0,
+    "over_50": 51
+   }
+  },
+  "script_none": {
+   "kinds": {
+    "안 건드림 · 완성": 100
+   },
+   "walls": [],
+   "g0v_slot10_takeover_off_mm": {
+    "n": 100,
+    "median": 14.4,
+    "p90": 14.4,
+    "max": 14.4,
+    "over_50": 0
+   }
+  },
+  "script_A": {
+   "kinds": {
+    "안 건드림 · 완성": 100
+   },
+   "walls": [],
+   "g0v_slot10_takeover_off_mm": {
+    "n": 100,
+    "median": 14.4,
+    "p90": 14.4,
+    "max": 14.4,
+    "over_50": 0
+   }
+  },
+  "script_B": {
+   "kinds": {
+    "안 건드림 · 완성": 100
+   },
+   "walls": [],
+   "g0v_slot10_takeover_off_mm": {
+    "n": 100,
+    "median": 14.4,
+    "p90": 14.4,
+    "max": 14.4,
+    "over_50": 0
+   }
+  },
+  "script_AB": {
+   "kinds": {
+    "안 건드림 · 완성": 100
+   },
+   "walls": [],
+   "g0v_slot10_takeover_off_mm": {
+    "n": 100,
+    "median": 14.4,
+    "p90": 14.4,
+    "max": 14.4,
+    "over_50": 0
+   }
+  }
+ },
+ "g2t_20261116_g0_vs_complete": {
+  "미완성 · G0 16번 모두": 1,
+  "미완성 · G0 16번 미만": 16,
+  "완성 · G0 16번 모두": 83
+ }
+}

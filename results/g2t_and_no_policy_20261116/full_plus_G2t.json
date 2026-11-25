@@ -1,0 +1,109 @@
+{
+ "act_all_held+k2+k7+g2t": {
+  "walls": 100,
+  "spec_pass": 79,
+  "slots_filled_mean": 14.62,
+  "iou_mean": 0.8930373276442147,
+  "filled_rate_by_slot": [
+   1.0,
+   0.99,
+   0.96,
+   0.99,
+   0.98,
+   0.93,
+   0.91,
+   0.88,
+   0.91,
+   0.91,
+   0.9,
+   0.89,
+   0.86,
+   0.84,
+   0.84,
+   0.83
+  ],
+  "lifted_rate_by_slot": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "filled_err_mm": {
+   "n": 1462,
+   "median": 0.44671016533270436,
+   "p90": 0.9541697630345295
+  },
+  "policy_time_s_per_brick": 12.58,
+  "gate_time_s_per_brick": 18.954875,
+  "wall_clock_s_per_wall": 113.69820639848709,
+  "walls_complete": 83,
+  "slots_filled_median": 16.0,
+  "first_unfilled_hist": {
+   "1": 1,
+   "2": 3,
+   "4": 1,
+   "5": 2,
+   "6": 2,
+   "7": 4,
+   "10": 1,
+   "11": 1,
+   "12": 1,
+   "15": 1,
+   "16": 83
+  },
+  "filled_but_perched": 5,
+  "gates": {
+   "g1_checks": 9642,
+   "g1_grasped": 1475,
+   "g1_grasped_but_target_not_lifted": 1280,
+   "g2_releases": 2439,
+   "g2_in_hand_by_camera": 2420,
+   "g2_in_hand_err_mm_median": 0.58,
+   "g3_inspections": 1475,
+   "g3_seen": 1452,
+   "g3_bad": 964,
+   "g3_replaced": 964,
+   "g3_meas_err_mm_median": 0.12,
+   "g3_replace_after_mm_median": 0.41,
+   "g2_interventions": 2439,
+   "g2_skipped_far": 0,
+   "g2_in_hand_measured": 2420,
+   "g1_grasped_turn_brick": 194,
+   "g0": {
+    "grasps": 1480,
+    "g1_grasped": 1474,
+    "tcp_off_mm_median": 21.25
+   },
+   "target": {
+    "method": [
+     "held_grasp"
+    ],
+    "decisions": 1475,
+    "undetermined": 0,
+    "g1_true": 1475,
+    "g1_true_no_brick_lifted": 1,
+    "g1_true_match": 1474,
+    "match_rate": 1.0,
+    "match_rate_all_g1_true": 0.9993220338983051,
+    "slot_ne_turn": 1274
+   }
+  }
+ },
+ "_meta": {
+  "failed_jobs": [],
+  "elapsed_s": 1550.1543271541595,
+  "finished": "2026-11-16 21:49:57"
+ }
+}

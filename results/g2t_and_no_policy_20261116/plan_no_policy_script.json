@@ -1,0 +1,56 @@
+{
+ "seeds": [
+  700300,
+  700399
+ ],
+ "env_version": "main_v1_eval",
+ "condition": "script_all_held+k2+k7",
+ "flags": [
+  "--controller",
+  "script",
+  "--g1",
+  "--g2",
+  "--g3",
+  "--gate-target",
+  "held_grasp",
+  "--gate-fix",
+  "k2",
+  "k7"
+ ],
+ "jobs": [
+  [
+   0,
+   "outputs/wall3/eval_nopolicy_20261116/script_all_held+k2+k7_part0"
+  ],
+  [
+   1,
+   "outputs/wall3/eval_nopolicy_20261116/script_all_held+k2+k7_part1"
+  ],
+  [
+   2,
+   "outputs/wall3/eval_nopolicy_20261116/script_all_held+k2+k7_part2"
+  ],
+  [
+   3,
+   "outputs/wall3/eval_nopolicy_20261116/script_all_held+k2+k7_part3"
+  ],
+  [
+   4,
+   "outputs/wall3/eval_nopolicy_20261116/script_all_held+k2+k7_part4"
+  ],
+  [
+   5,
+   "outputs/wall3/eval_nopolicy_20261116/script_all_held+k2+k7_part5"
+  ],
+  [
+   6,
+   "outputs/wall3/eval_nopolicy_20261116/script_all_held+k2+k7_part6"
+  ],
+  [
+   7,
+   "outputs/wall3/eval_nopolicy_20261116/script_all_held+k2+k7_part7"
+  ]
+ ],
+ "started": "2026-11-16 21:24:07",
+ "git_commit": "bdcd94781235f1256d190460b7d392e8e1b13700"
+}

@@ -1,0 +1,59 @@
+{
+ "seeds": [
+  700300,
+  700399
+ ],
+ "env_version": "main_v1_eval",
+ "condition": "act_all_held+k2+k7+g2t",
+ "flags": [
+  "--controller",
+  "act",
+  "--ckpt",
+  "outputs/wall3/main_train_v2_20261022/act_s1000/checkpoints/last/pretrained_model",
+  "--g1",
+  "--g2",
+  "--g3",
+  "--gate-target",
+  "held_grasp",
+  "--gate-fix",
+  "k2",
+  "k7",
+  "--g2-carry"
+ ],
+ "jobs": [
+  [
+   0,
+   "outputs/wall3/eval_g2t_20261116/act_all_held+k2+k7+g2t_part0"
+  ],
+  [
+   1,
+   "outputs/wall3/eval_g2t_20261116/act_all_held+k2+k7+g2t_part1"
+  ],
+  [
+   2,
+   "outputs/wall3/eval_g2t_20261116/act_all_held+k2+k7+g2t_part2"
+  ],
+  [
+   3,
+   "outputs/wall3/eval_g2t_20261116/act_all_held+k2+k7+g2t_part3"
+  ],
+  [
+   4,
+   "outputs/wall3/eval_g2t_20261116/act_all_held+k2+k7+g2t_part4"
+  ],
+  [
+   5,
+   "outputs/wall3/eval_g2t_20261116/act_all_held+k2+k7+g2t_part5"
+  ],
+  [
+   6,
+   "outputs/wall3/eval_g2t_20261116/act_all_held+k2+k7+g2t_part6"
+  ],
+  [
+   7,
+   "outputs/wall3/eval_g2t_20261116/act_all_held+k2+k7+g2t_part7"
+  ]
+ ],
+ "started": "2026-11-16 21:24:07",
+ "git_commit": "bdcd94781235f1256d190460b7d392e8e1b13700"
+}

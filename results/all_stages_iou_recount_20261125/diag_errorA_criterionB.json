@@ -1,0 +1,45 @@
+{
+ "note": "진단 · 결과 아님 · 개발 배치(700300 ~ 700399)",
+ "끝 구성 × A": {
+  "spearman_offset_vs_passB": -0.7376297629762977,
+  "spearman_offset_vs_median_iou": -0.8528292829282927,
+  "spearman_rot_vs_passB": -0.029918991899189916,
+  "passB_per_wall_mean_offset_lt_1mm": {
+   "walls": 14,
+   "mean": 10.5
+  },
+  "passB_per_wall_mean_offset_ge_2mm": {
+   "walls": 64,
+   "mean": 1.71875
+  },
+  "corr_center_err_x_vs_wall_dx": 0.8900807993357384,
+  "corr_center_err_y_vs_wall_dy": 0.9965216720141752,
+  "slope_center_err_x_vs_wall_dx": 1.0898700987675265,
+  "slope_center_err_y_vs_wall_dy": 0.9917357322023375,
+  "offset_mm": {
+   "median": 2.4807445231190974,
+   "max": 4.021018865899941
+  }
+ },
+ "끝 구성 × A + B": {
+  "spearman_offset_vs_passB": -0.7515751575157514,
+  "spearman_offset_vs_median_iou": -0.8536693669366936,
+  "spearman_rot_vs_passB": -0.019117911791179117,
+  "passB_per_wall_mean_offset_lt_1mm": {
+   "walls": 14,
+   "mean": 10.857142857142858
+  },
+  "passB_per_wall_mean_offset_ge_2mm": {
+   "walls": 64,
+   "mean": 1.59375
+  },
+  "corr_center_err_x_vs_wall_dx": 0.8917560747749148,
+  "corr_center_err_y_vs_wall_dy": 0.9967537623629906,
+  "slope_center_err_x_vs_wall_dx": 1.0810518756577614,
+  "slope_center_err_y_vs_wall_dy": 0.9976791374740295,
+  "offset_mm": {
+   "median": 2.4807445231190974,
+   "max": 4.021018865899941
+  }
+ }
+}
